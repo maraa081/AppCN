@@ -1,5 +1,5 @@
-import { speak } from '../utils/tts';
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
+import AudioButton from './AudioButton';
 
 export default function LevelSelector({ levels, currentLevel, onSelect }) {
   const levelKeys = Object.keys(levels);

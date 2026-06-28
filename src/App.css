@@ -52,14 +52,7 @@ body {
   font-size: 2.5em;
   font-weight: 700;
   color: var(--accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.app-icon {
-  font-size: 1.2em;
+  text-align: center;
 }
 
 .app-subtitle {
@@ -70,12 +63,8 @@ body {
 
 .app-tip {
   color: var(--text-dim);
-  font-size: 0.9em;
+  font-size: 0.85em;
   margin-top: 10px;
-  padding: 8px 16px;
-  background: var(--jp-bg);
-  border-radius: var(--radius);
-  display: inline-block;
 }
 
 /* === Main Menu === */
@@ -107,12 +96,6 @@ body {
   border-color: var(--accent-dim);
   transform: translateY(-2px);
   box-shadow: var(--shadow);
-}
-
-.module-icon {
-  font-size: 2.2em;
-  margin-right: 20px;
-  flex-shrink: 0;
 }
 
 .module-info {
@@ -882,15 +865,15 @@ body {
 
 .vocab-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
 }
 
 .vocab-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 14px;
+  padding: 18px;
   transition: all 0.2s;
 }
 
@@ -902,21 +885,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .vocab-char {
-  font-size: 1.7em;
+  font-size: 2em;
 }
 
 .vocab-pinyin {
   color: var(--accent);
-  font-size: 0.9em;
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
 }
 
 .vocab-french {
   color: var(--text);
-  font-size: 0.95em;
+  font-size: 1em;
 }
 
 .vocab-meta {

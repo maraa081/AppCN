@@ -10,7 +10,6 @@ const MODULES = [
     id: 'phrases',
     title: 'Phrases',
     subtitle: 'Grammaire en contexte',
-    icon: '💬',
     desc: 'Phrases classées par thème avec traduction, pinyin et explications grammaticales.',
     component: PhrasesModule,
   },
@@ -18,24 +17,21 @@ const MODULES = [
     id: 'grammar',
     title: 'Grammaire',
     subtitle: 'Leçons structurées',
-    icon: '📐',
-    desc: 'Points grammaticaux expliqués avec comparaisons avec le japonais et exercices.',
+    desc: 'Points grammaticaux expliqués, comparaisons japonais et exercices.',
     component: GrammarModule,
   },
   {
     id: 'pronunciation',
     title: 'Prononciation',
     subtitle: 'Écoute & tons',
-    icon: '🔊',
-    desc: 'Syllabes pinyin, tons, et exercices de reconnaissance auditive.',
+    desc: 'Syllabes pinyin, tons, exercices de reconnaissance auditive.',
     component: PronunciationModule,
   },
   {
     id: 'vocabulary',
     title: 'Vocabulaire',
-    subtitle: 'Mots & flashcards',
-    icon: '📚',
-    desc: 'Listes thématiques, notes comparatives japonais et répétition espacée.',
+    subtitle: 'Flashcards & répétition',
+    desc: 'Listes thématiques, notes comparatives et répétition espacée.',
     component: VocabularyModule,
   },
 ];
@@ -57,13 +53,10 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-content">
-          <h1>
-            <span className="app-icon">🀄</span>
-            AppCN
-          </h1>
+          <h1>AppCN</h1>
           <p className="app-subtitle">Apprentissage du chinois mandarin</p>
           <p className="app-tip">
-            🇯🇵 Tu connais le japonais ? Les notes <span className="jp-tag">Japonais</span> t'aident à faire le lien.
+            Tu connais le japonais ? Les notes <span className="jp-tag">Japonais</span> t'aident à faire le lien.
           </p>
         </div>
       </header>
@@ -75,7 +68,6 @@ export default function App() {
             className="module-card"
             onClick={() => setActiveModule(mod.id)}
           >
-            <span className="module-icon">{mod.icon}</span>
             <div className="module-info">
               <h2>{mod.title}</h2>
               <span className="module-subtitle">{mod.subtitle}</span>
@@ -87,7 +79,7 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
-        <p>AppCN v1.0 — Données de démarrage incluses. Enrichis ton vocabulaire dans les fichiers <code>src/modules/*/data.js</code></p>
+        <p>AppCN — Les données de démarrage sont incluses. Ajoute ton contenu dans <code>src/modules/*/data.js</code></p>
       </footer>
     </div>
   );

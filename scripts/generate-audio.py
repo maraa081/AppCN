@@ -81,26 +81,24 @@ for wid, hanzi in VOCAB_ENTRIES:
     CONTENT.append(("vocab", f"{wid}.mp3", hanzi, VOICE_FEMALE, "+0%"))
     CONTENT.append(("vocab_slow", f"{wid}_slow.mp3", hanzi, VOICE_FEMALE, "-30%"))
 
-# --- 3. Phrases ---
-PHRASES = [
-    "你好", "你好吗？", "我很好", "谢谢", "再见",
-    "你是学生吗？", "我是学生", "早上好",
-    "我叫马克西姆", "我是法国人", "你叫什么名字？",
-    "她是医生", "他是老师", "很高兴认识你", "我今年二十岁",
-    "我吃饭了", "我饿了", "她去学校了",
-    "你喝水吗？", "我喝水", "他睡觉了", "我回家了",
-    "你是中国人吗？", "我会说中文",
-    "你会说法语吗？", "我说一点中文", "他是日本人",
-    "我在学中文",
-    "我有一本书", "我没有钱", "你想吃什么？",
-    "我想喝茶", "你有车吗？", "我有两个姐姐", "我想去中国",
-    "我要去北京", "飞机几点到？", "我在等出租车",
-    "这个多少钱？", "有没有房间？", "我迷路了", "请帮我一下",
-    "他比我高", "中文比英文难", "你和我一样高",
-    "这个更好", "她跑得比我快", "今天比昨天热",
-    "这是我的书", "她说得很快", "他高兴地笑了",
-    "你说得对", "红色的车", "学中文要学得好",
-]
+# --- 3. Phrases (lecture dynamique depuis data.js) ---
+PHRASES = []
+phrase_path = ROOT / "src/modules/Phrases/data.js"
+try:
+    import re
+    with open(phrase_path, "r", encoding="utf-8") as f:
+        js_content = f.read()
+    # Extrait tous les champs chinese: dans l'ordre du fichier
+    matches = re.findall(r"chinese:\s*'([^']+)'", js_content)
+    seen = set()
+    for txt in matches:
+        if txt not in seen:
+            seen.add(txt)
+            PHRASES.append(txt)
+    print(f"   {len(PHRASES)} phrases chargées depuis Phrases/data.js")
+except Exception as e:
+    print(f"   ⚠️  Erreur chargement phrases: {e}")
+    PHRASES = ["你好"]  # fallback
 
 for i, text in enumerate(PHRASES):
     pid = f"p{i+1}"

@@ -6492,6 +6492,66 @@
     "slow": true
   },
   {
+    "text": "如果下雨，我就不去",
+    "path": "phrase/p55.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "如果下雨，我就不去",
+    "path": "phrase_slow/p55_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "如果你来，我就很高兴",
+    "path": "phrase/p56.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "如果你来，我就很高兴",
+    "path": "phrase_slow/p56_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你有时间的话，我们一起吃饭",
+    "path": "phrase/p57.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你有时间的话，我们一起吃饭",
+    "path": "phrase_slow/p57_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "就算很难，我也要学",
+    "path": "phrase/p58.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "就算很难，我也要学",
+    "path": "phrase_slow/p58_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "要不是你帮我，我做不完",
+    "path": "phrase/p59.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "要不是你帮我，我做不完",
+    "path": "phrase_slow/p59_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
     "text": "mā",
     "path": "pair/pair_0.mp3",
     "type": "pair",

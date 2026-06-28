@@ -404,6 +404,40 @@ body {
   font-size: 0.8em;
 }
 
+/* Audio group: bouton + options (speed, loop) */
+.audio-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.audio-group .speed-btn,
+.audio-group .loop-btn {
+  width: 28px;
+  height: 28px;
+  font-size: 0.75em;
+  background: var(--bg-card);
+}
+
+.audio-group .speed-btn.active,
+.audio-group .loop-btn.active {
+  background: var(--accent-dim);
+  color: #0f0f1a;
+}
+
+.audio-group .speed-btn:hover,
+.audio-group .loop-btn:hover {
+  background: var(--accent);
+  color: #0f0f1a;
+}
+
+.audio-group.large .speed-btn,
+.audio-group.large .loop-btn {
+  width: 36px;
+  height: 36px;
+  font-size: 0.9em;
+}
+
 /* === Phrase List === */
 .phrase-controls {
   display: flex;
@@ -642,6 +676,26 @@ body {
   margin-bottom: 16px;
   font-size: 0.9em;
   color: var(--text-dim);
+  flex-wrap: wrap;
+}
+
+.listen-hint {
+  font-size: 0.85em;
+  color: var(--text-dim);
+  margin-left: 4px;
+}
+
+.multiaudio-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.multiaudio-label {
+  font-size: 0.7em;
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .exercise-question {

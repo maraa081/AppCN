@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-audio": "python3 scripts/generate-audio.py",
+    "postinstall": "python3 scripts/generate-audio.py 2>/dev/null || echo '⚠️  Audio generation skipped (install python3 + edge-tts to enable)'"
   },
   "dependencies": {
     "react": "^19.2.7",

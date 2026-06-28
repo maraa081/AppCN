@@ -1,0 +1,3350 @@
+[
+  {
+    "text": "mā",
+    "path": "syllable/mā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "mā",
+    "path": "syllable_slow/mā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "má",
+    "path": "syllable/má.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "má",
+    "path": "syllable_slow/má_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "mǎ",
+    "path": "syllable/mǎ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "mǎ",
+    "path": "syllable_slow/mǎ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "mà",
+    "path": "syllable/mà.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "mà",
+    "path": "syllable_slow/mà_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ma",
+    "path": "syllable/ma.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ma",
+    "path": "syllable_slow/ma_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "bā",
+    "path": "syllable/bā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "bā",
+    "path": "syllable_slow/bā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "pā",
+    "path": "syllable/pā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "pā",
+    "path": "syllable_slow/pā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "bō",
+    "path": "syllable/bō.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "bō",
+    "path": "syllable_slow/bō_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "pō",
+    "path": "syllable/pō.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "pō",
+    "path": "syllable_slow/pō_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "bǐ",
+    "path": "syllable/bǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "bǐ",
+    "path": "syllable_slow/bǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "pǐ",
+    "path": "syllable/pǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "pǐ",
+    "path": "syllable_slow/pǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "dā",
+    "path": "syllable/dā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "dā",
+    "path": "syllable_slow/dā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "tā",
+    "path": "syllable/tā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "tā",
+    "path": "syllable_slow/tā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "dì",
+    "path": "syllable/dì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "dì",
+    "path": "syllable_slow/dì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "tì",
+    "path": "syllable/tì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "tì",
+    "path": "syllable_slow/tì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "dú",
+    "path": "syllable/dú.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "dú",
+    "path": "syllable_slow/dú_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "tú",
+    "path": "syllable/tú.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "tú",
+    "path": "syllable_slow/tú_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "gē",
+    "path": "syllable/gē.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "gē",
+    "path": "syllable_slow/gē_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "kē",
+    "path": "syllable/kē.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "kē",
+    "path": "syllable_slow/kē_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "gǔ",
+    "path": "syllable/gǔ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "gǔ",
+    "path": "syllable_slow/gǔ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "kǔ",
+    "path": "syllable/kǔ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "kǔ",
+    "path": "syllable_slow/kǔ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zhī",
+    "path": "syllable/zhī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zhī",
+    "path": "syllable_slow/zhī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zhí",
+    "path": "syllable/zhí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zhí",
+    "path": "syllable_slow/zhí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zhǐ",
+    "path": "syllable/zhǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zhǐ",
+    "path": "syllable_slow/zhǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zhì",
+    "path": "syllable/zhì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zhì",
+    "path": "syllable_slow/zhì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "chī",
+    "path": "syllable/chī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "chī",
+    "path": "syllable_slow/chī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "chí",
+    "path": "syllable/chí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "chí",
+    "path": "syllable_slow/chí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "chǐ",
+    "path": "syllable/chǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "chǐ",
+    "path": "syllable_slow/chǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "chì",
+    "path": "syllable/chì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "chì",
+    "path": "syllable_slow/chì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shī",
+    "path": "syllable/shī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shī",
+    "path": "syllable_slow/shī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shí",
+    "path": "syllable/shí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shí",
+    "path": "syllable_slow/shí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shǐ",
+    "path": "syllable/shǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shǐ",
+    "path": "syllable_slow/shǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shì",
+    "path": "syllable/shì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shì",
+    "path": "syllable_slow/shì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "rì",
+    "path": "syllable/rì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "rì",
+    "path": "syllable_slow/rì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "rè",
+    "path": "syllable/rè.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "rè",
+    "path": "syllable_slow/rè_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "rén",
+    "path": "syllable/rén.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "rén",
+    "path": "syllable_slow/rén_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "rǎn",
+    "path": "syllable/rǎn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "rǎn",
+    "path": "syllable_slow/rǎn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "jī",
+    "path": "syllable/jī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "jī",
+    "path": "syllable_slow/jī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "jí",
+    "path": "syllable/jí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "jí",
+    "path": "syllable_slow/jí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "jǐ",
+    "path": "syllable/jǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "jǐ",
+    "path": "syllable_slow/jǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "jì",
+    "path": "syllable/jì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "jì",
+    "path": "syllable_slow/jì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "qī",
+    "path": "syllable/qī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "qī",
+    "path": "syllable_slow/qī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "qí",
+    "path": "syllable/qí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "qí",
+    "path": "syllable_slow/qí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "qǐ",
+    "path": "syllable/qǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "qǐ",
+    "path": "syllable_slow/qǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "qì",
+    "path": "syllable/qì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "qì",
+    "path": "syllable_slow/qì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "xī",
+    "path": "syllable/xī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "xī",
+    "path": "syllable_slow/xī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "xí",
+    "path": "syllable/xí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "xí",
+    "path": "syllable_slow/xí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "xǐ",
+    "path": "syllable/xǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "xǐ",
+    "path": "syllable_slow/xǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "xì",
+    "path": "syllable/xì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "xì",
+    "path": "syllable_slow/xì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zā",
+    "path": "syllable/zā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zā",
+    "path": "syllable_slow/zā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "cā",
+    "path": "syllable/cā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "cā",
+    "path": "syllable_slow/cā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zì",
+    "path": "syllable/zì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zì",
+    "path": "syllable_slow/zì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "cì",
+    "path": "syllable/cì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "cì",
+    "path": "syllable_slow/cì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "āi",
+    "path": "syllable/āi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "āi",
+    "path": "syllable_slow/āi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ái",
+    "path": "syllable/ái.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ái",
+    "path": "syllable_slow/ái_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ǎi",
+    "path": "syllable/ǎi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ǎi",
+    "path": "syllable_slow/ǎi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ài",
+    "path": "syllable/ài.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ài",
+    "path": "syllable_slow/ài_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ēi",
+    "path": "syllable/ēi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ēi",
+    "path": "syllable_slow/ēi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "éi",
+    "path": "syllable/éi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "éi",
+    "path": "syllable_slow/éi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ěi",
+    "path": "syllable/ěi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ěi",
+    "path": "syllable_slow/ěi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "èi",
+    "path": "syllable/èi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "èi",
+    "path": "syllable_slow/èi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "āo",
+    "path": "syllable/āo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "āo",
+    "path": "syllable_slow/āo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "áo",
+    "path": "syllable/áo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "áo",
+    "path": "syllable_slow/áo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ǎo",
+    "path": "syllable/ǎo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ǎo",
+    "path": "syllable_slow/ǎo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ào",
+    "path": "syllable/ào.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ào",
+    "path": "syllable_slow/ào_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ān",
+    "path": "syllable/ān.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ān",
+    "path": "syllable_slow/ān_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "án",
+    "path": "syllable/án.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "án",
+    "path": "syllable_slow/án_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ǎn",
+    "path": "syllable/ǎn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ǎn",
+    "path": "syllable_slow/ǎn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "àn",
+    "path": "syllable/àn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "àn",
+    "path": "syllable_slow/àn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ēn",
+    "path": "syllable/ēn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ēn",
+    "path": "syllable_slow/ēn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "én",
+    "path": "syllable/én.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "én",
+    "path": "syllable_slow/én_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ěn",
+    "path": "syllable/ěn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ěn",
+    "path": "syllable_slow/ěn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "èn",
+    "path": "syllable/èn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "èn",
+    "path": "syllable_slow/èn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "āng",
+    "path": "syllable/āng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "āng",
+    "path": "syllable_slow/āng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "áng",
+    "path": "syllable/áng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "áng",
+    "path": "syllable_slow/áng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "ǎng",
+    "path": "syllable/ǎng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "ǎng",
+    "path": "syllable_slow/ǎng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "àng",
+    "path": "syllable/àng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "àng",
+    "path": "syllable_slow/àng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "yī",
+    "path": "syllable/yī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "yī",
+    "path": "syllable_slow/yī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "yí",
+    "path": "syllable/yí.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "yí",
+    "path": "syllable_slow/yí_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "yǐ",
+    "path": "syllable/yǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "yǐ",
+    "path": "syllable_slow/yǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "yì",
+    "path": "syllable/yì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "yì",
+    "path": "syllable_slow/yì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "yú",
+    "path": "syllable/yú.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "yú",
+    "path": "syllable_slow/yú_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "wǒ",
+    "path": "syllable/wǒ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "wǒ",
+    "path": "syllable_slow/wǒ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "nǐ",
+    "path": "syllable/nǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "nǐ",
+    "path": "syllable_slow/nǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "tā",
+    "path": "syllable/tā.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "tā",
+    "path": "syllable_slow/tā_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "hǎo",
+    "path": "syllable/hǎo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "hǎo",
+    "path": "syllable_slow/hǎo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "xiè",
+    "path": "syllable/xiè.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "xiè",
+    "path": "syllable_slow/xiè_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zài",
+    "path": "syllable/zài.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zài",
+    "path": "syllable_slow/zài_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "jiàn",
+    "path": "syllable/jiàn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "jiàn",
+    "path": "syllable_slow/jiàn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shì",
+    "path": "syllable/shì.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shì",
+    "path": "syllable_slow/shì_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "xué",
+    "path": "syllable/xué.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "xué",
+    "path": "syllable_slow/xué_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shēng",
+    "path": "syllable/shēng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shēng",
+    "path": "syllable_slow/shēng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "lǎo",
+    "path": "syllable/lǎo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "lǎo",
+    "path": "syllable_slow/lǎo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "shuǐ",
+    "path": "syllable/shuǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "shuǐ",
+    "path": "syllable_slow/shuǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "chī",
+    "path": "syllable/chī.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "chī",
+    "path": "syllable_slow/chī_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "hē",
+    "path": "syllable/hē.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "hē",
+    "path": "syllable_slow/hē_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "fàn",
+    "path": "syllable/fàn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "fàn",
+    "path": "syllable_slow/fàn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "māo",
+    "path": "syllable/māo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "māo",
+    "path": "syllable_slow/māo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "gǒu",
+    "path": "syllable/gǒu.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "gǒu",
+    "path": "syllable_slow/gǒu_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "niǎo",
+    "path": "syllable/niǎo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "niǎo",
+    "path": "syllable_slow/niǎo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "yú",
+    "path": "syllable/yú.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "yú",
+    "path": "syllable_slow/yú_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "bēi",
+    "path": "syllable/bēi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "bēi",
+    "path": "syllable_slow/bēi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "běn",
+    "path": "syllable/běn.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "běn",
+    "path": "syllable_slow/běn_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zhāng",
+    "path": "syllable/zhāng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zhāng",
+    "path": "syllable_slow/zhāng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "tiáo",
+    "path": "syllable/tiáo.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "tiáo",
+    "path": "syllable_slow/tiáo_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "gè",
+    "path": "syllable/gè.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "gè",
+    "path": "syllable_slow/gè_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "zhǐ",
+    "path": "syllable/zhǐ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "zhǐ",
+    "path": "syllable_slow/zhǐ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "liǎng",
+    "path": "syllable/liǎng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "liǎng",
+    "path": "syllable_slow/liǎng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "sān",
+    "path": "syllable/sān.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "sān",
+    "path": "syllable_slow/sān_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "kāi",
+    "path": "syllable/kāi.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "kāi",
+    "path": "syllable_slow/kāi_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "guān",
+    "path": "syllable/guān.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "guān",
+    "path": "syllable_slow/guān_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "dǎ",
+    "path": "syllable/dǎ.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "dǎ",
+    "path": "syllable_slow/dǎ_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "fàng",
+    "path": "syllable/fàng.mp3",
+    "type": "syllable",
+    "slow": false
+  },
+  {
+    "text": "fàng",
+    "path": "syllable_slow/fàng_slow.mp3",
+    "type": "syllable_slow",
+    "slow": true
+  },
+  {
+    "text": "你好",
+    "path": "vocab/w1.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "你好",
+    "path": "vocab_slow/w1_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "再见",
+    "path": "vocab/w2.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "再见",
+    "path": "vocab_slow/w2_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "谢谢",
+    "path": "vocab/w3.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "谢谢",
+    "path": "vocab_slow/w3_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "对不起",
+    "path": "vocab/w4.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "对不起",
+    "path": "vocab_slow/w4_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "没关系",
+    "path": "vocab/w5.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "没关系",
+    "path": "vocab_slow/w5_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "请",
+    "path": "vocab/w6.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "请",
+    "path": "vocab_slow/w6_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "不客气",
+    "path": "vocab/w7.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "不客气",
+    "path": "vocab_slow/w7_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "早上好",
+    "path": "vocab/w8.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "早上好",
+    "path": "vocab_slow/w8_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "晚上好",
+    "path": "vocab/w9.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "晚上好",
+    "path": "vocab_slow/w9_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "爸爸",
+    "path": "vocab/w10.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "爸爸",
+    "path": "vocab_slow/w10_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "妈妈",
+    "path": "vocab/w11.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "妈妈",
+    "path": "vocab_slow/w11_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "哥哥",
+    "path": "vocab/w12.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "哥哥",
+    "path": "vocab_slow/w12_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "姐姐",
+    "path": "vocab/w13.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "姐姐",
+    "path": "vocab_slow/w13_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "妹妹",
+    "path": "vocab/w14.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "妹妹",
+    "path": "vocab_slow/w14_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "朋友",
+    "path": "vocab/w15.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "朋友",
+    "path": "vocab_slow/w15_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "一",
+    "path": "vocab/w16.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "一",
+    "path": "vocab_slow/w16_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "二",
+    "path": "vocab/w17.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "二",
+    "path": "vocab_slow/w17_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "三",
+    "path": "vocab/w18.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "三",
+    "path": "vocab_slow/w18_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "四",
+    "path": "vocab/w19.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "四",
+    "path": "vocab_slow/w19_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "五",
+    "path": "vocab/w20.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "五",
+    "path": "vocab_slow/w20_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "六",
+    "path": "vocab/w21.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "六",
+    "path": "vocab_slow/w21_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "七",
+    "path": "vocab/w22.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "七",
+    "path": "vocab_slow/w22_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "八",
+    "path": "vocab/w23.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "八",
+    "path": "vocab_slow/w23_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "九",
+    "path": "vocab/w24.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "九",
+    "path": "vocab_slow/w24_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "十",
+    "path": "vocab/w25.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "十",
+    "path": "vocab_slow/w25_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "百",
+    "path": "vocab/w26.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "百",
+    "path": "vocab_slow/w26_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "千",
+    "path": "vocab/w27.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "千",
+    "path": "vocab_slow/w27_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "水",
+    "path": "vocab/w28.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "水",
+    "path": "vocab_slow/w28_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "茶",
+    "path": "vocab/w29.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "茶",
+    "path": "vocab_slow/w29_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "咖啡",
+    "path": "vocab/w30.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "咖啡",
+    "path": "vocab_slow/w30_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "米饭",
+    "path": "vocab/w31.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "米饭",
+    "path": "vocab_slow/w31_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "书",
+    "path": "vocab/w32.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "书",
+    "path": "vocab_slow/w32_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "电话",
+    "path": "vocab/w33.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "电话",
+    "path": "vocab_slow/w33_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "电脑",
+    "path": "vocab/w34.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "电脑",
+    "path": "vocab_slow/w34_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "手表",
+    "path": "vocab/w35.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "手表",
+    "path": "vocab_slow/w35_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "衣服",
+    "path": "vocab/w36.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "衣服",
+    "path": "vocab_slow/w36_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "家",
+    "path": "vocab/w37.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "家",
+    "path": "vocab_slow/w37_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "吃",
+    "path": "vocab/w38.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "吃",
+    "path": "vocab_slow/w38_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "喝",
+    "path": "vocab/w39.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "喝",
+    "path": "vocab_slow/w39_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "苹果",
+    "path": "vocab/w40.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "苹果",
+    "path": "vocab_slow/w40_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "牛奶",
+    "path": "vocab/w41.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "牛奶",
+    "path": "vocab_slow/w41_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "面包",
+    "path": "vocab/w42.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "面包",
+    "path": "vocab_slow/w42_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "肉",
+    "path": "vocab/w43.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "肉",
+    "path": "vocab_slow/w43_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "鸡蛋",
+    "path": "vocab/w44.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "鸡蛋",
+    "path": "vocab_slow/w44_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "时间",
+    "path": "vocab/w45.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "时间",
+    "path": "vocab_slow/w45_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "今天",
+    "path": "vocab/w46.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "今天",
+    "path": "vocab_slow/w46_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "明天",
+    "path": "vocab/w47.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "明天",
+    "path": "vocab_slow/w47_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "昨天",
+    "path": "vocab/w48.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "昨天",
+    "path": "vocab_slow/w48_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "星期",
+    "path": "vocab/w49.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "星期",
+    "path": "vocab_slow/w49_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "学校",
+    "path": "vocab/w50.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "学校",
+    "path": "vocab_slow/w50_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "老师",
+    "path": "vocab/w51.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "老师",
+    "path": "vocab_slow/w51_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "学生",
+    "path": "vocab/w52.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "学生",
+    "path": "vocab_slow/w52_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "汉语",
+    "path": "vocab/w53.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "汉语",
+    "path": "vocab_slow/w53_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "英语",
+    "path": "vocab/w54.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "英语",
+    "path": "vocab_slow/w54_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "法国",
+    "path": "vocab/w55.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "法国",
+    "path": "vocab_slow/w55_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "中国",
+    "path": "vocab/w56.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "中国",
+    "path": "vocab_slow/w56_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "日本",
+    "path": "vocab/w57.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "日本",
+    "path": "vocab_slow/w57_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "医院",
+    "path": "vocab/w58.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "医院",
+    "path": "vocab_slow/w58_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "钱",
+    "path": "vocab/w59.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "钱",
+    "path": "vocab_slow/w59_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "喜欢",
+    "path": "vocab/w60.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "喜欢",
+    "path": "vocab_slow/w60_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "知道",
+    "path": "vocab/w61.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "知道",
+    "path": "vocab_slow/w61_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "认识",
+    "path": "vocab/w62.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "认识",
+    "path": "vocab_slow/w62_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "便宜",
+    "path": "vocab/w63.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "便宜",
+    "path": "vocab_slow/w63_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "经济",
+    "path": "vocab/w64.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "经济",
+    "path": "vocab_slow/w64_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "社会",
+    "path": "vocab/w65.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "社会",
+    "path": "vocab_slow/w65_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "文化",
+    "path": "vocab/w66.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "文化",
+    "path": "vocab_slow/w66_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "国际",
+    "path": "vocab/w67.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "国际",
+    "path": "vocab_slow/w67_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "关系",
+    "path": "vocab/w68.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "关系",
+    "path": "vocab_slow/w68_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "问题",
+    "path": "vocab/w69.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "问题",
+    "path": "vocab_slow/w69_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "发展",
+    "path": "vocab/w70.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "发展",
+    "path": "vocab_slow/w70_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "学习",
+    "path": "vocab/w71.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "学习",
+    "path": "vocab_slow/w71_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "决定",
+    "path": "vocab/w72.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "决定",
+    "path": "vocab_slow/w72_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "经验",
+    "path": "vocab/w73.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "经验",
+    "path": "vocab_slow/w73_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "意思",
+    "path": "vocab/w74.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "意思",
+    "path": "vocab_slow/w74_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "特别",
+    "path": "vocab/w75.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "特别",
+    "path": "vocab_slow/w75_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "开始",
+    "path": "vocab/w76.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "开始",
+    "path": "vocab_slow/w76_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "可以",
+    "path": "vocab/w77.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "可以",
+    "path": "vocab_slow/w77_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "应该",
+    "path": "vocab/w78.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "应该",
+    "path": "vocab_slow/w78_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "因为",
+    "path": "vocab/w79.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "因为",
+    "path": "vocab_slow/w79_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "所以",
+    "path": "vocab/w80.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "所以",
+    "path": "vocab_slow/w80_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "虽然",
+    "path": "vocab/w81.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "虽然",
+    "path": "vocab_slow/w81_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "但是",
+    "path": "vocab/w82.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "但是",
+    "path": "vocab_slow/w82_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "已经",
+    "path": "vocab/w83.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "已经",
+    "path": "vocab_slow/w83_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "可能",
+    "path": "vocab/w84.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "可能",
+    "path": "vocab_slow/w84_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "漂亮",
+    "path": "vocab/w85.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "漂亮",
+    "path": "vocab_slow/w85_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "努力",
+    "path": "vocab/w86.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "努力",
+    "path": "vocab_slow/w86_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "贵",
+    "path": "vocab/w87.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "贵",
+    "path": "vocab_slow/w87_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "吃猪肉",
+    "path": "vocab/w88.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "吃猪肉",
+    "path": "vocab_slow/w88_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "你好",
+    "path": "phrase/p1.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你好",
+    "path": "phrase_slow/p1_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你好吗？",
+    "path": "phrase/p2.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你好吗？",
+    "path": "phrase_slow/p2_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我很好",
+    "path": "phrase/p3.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我很好",
+    "path": "phrase_slow/p3_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "谢谢",
+    "path": "phrase/p4.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "谢谢",
+    "path": "phrase_slow/p4_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "再见",
+    "path": "phrase/p5.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "再见",
+    "path": "phrase_slow/p5_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你是学生吗？",
+    "path": "phrase/p6.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你是学生吗？",
+    "path": "phrase_slow/p6_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我是学生",
+    "path": "phrase/p7.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我是学生",
+    "path": "phrase_slow/p7_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "早上好",
+    "path": "phrase/p8.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "早上好",
+    "path": "phrase_slow/p8_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我叫马克西姆",
+    "path": "phrase/p9.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我叫马克西姆",
+    "path": "phrase_slow/p9_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我是法国人",
+    "path": "phrase/p10.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我是法国人",
+    "path": "phrase_slow/p10_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你叫什么名字？",
+    "path": "phrase/p11.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你叫什么名字？",
+    "path": "phrase_slow/p11_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "她是医生",
+    "path": "phrase/p12.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "她是医生",
+    "path": "phrase_slow/p12_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "他是老师",
+    "path": "phrase/p13.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "他是老师",
+    "path": "phrase_slow/p13_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "很高兴认识你",
+    "path": "phrase/p14.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "很高兴认识你",
+    "path": "phrase_slow/p14_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我今年二十岁",
+    "path": "phrase/p15.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我今年二十岁",
+    "path": "phrase_slow/p15_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我吃饭了",
+    "path": "phrase/p16.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我吃饭了",
+    "path": "phrase_slow/p16_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我饿了",
+    "path": "phrase/p17.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我饿了",
+    "path": "phrase_slow/p17_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "她去学校了",
+    "path": "phrase/p18.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "她去学校了",
+    "path": "phrase_slow/p18_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你喝水吗？",
+    "path": "phrase/p19.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你喝水吗？",
+    "path": "phrase_slow/p19_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我喝水",
+    "path": "phrase/p20.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我喝水",
+    "path": "phrase_slow/p20_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "他睡觉了",
+    "path": "phrase/p21.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "他睡觉了",
+    "path": "phrase_slow/p21_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我回家了",
+    "path": "phrase/p22.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我回家了",
+    "path": "phrase_slow/p22_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你是中国人吗？",
+    "path": "phrase/p23.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你是中国人吗？",
+    "path": "phrase_slow/p23_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我会说中文",
+    "path": "phrase/p24.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我会说中文",
+    "path": "phrase_slow/p24_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你会说法语吗？",
+    "path": "phrase/p25.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你会说法语吗？",
+    "path": "phrase_slow/p25_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我说一点中文",
+    "path": "phrase/p26.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我说一点中文",
+    "path": "phrase_slow/p26_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "他是日本人",
+    "path": "phrase/p27.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "他是日本人",
+    "path": "phrase_slow/p27_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我在学中文",
+    "path": "phrase/p28.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我在学中文",
+    "path": "phrase_slow/p28_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我有一本书",
+    "path": "phrase/p29.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我有一本书",
+    "path": "phrase_slow/p29_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我没有钱",
+    "path": "phrase/p30.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我没有钱",
+    "path": "phrase_slow/p30_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你想吃什么？",
+    "path": "phrase/p31.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你想吃什么？",
+    "path": "phrase_slow/p31_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我想喝茶",
+    "path": "phrase/p32.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我想喝茶",
+    "path": "phrase_slow/p32_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你有车吗？",
+    "path": "phrase/p33.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你有车吗？",
+    "path": "phrase_slow/p33_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我有两个姐姐",
+    "path": "phrase/p34.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我有两个姐姐",
+    "path": "phrase_slow/p34_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我想去中国",
+    "path": "phrase/p35.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我想去中国",
+    "path": "phrase_slow/p35_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我要去北京",
+    "path": "phrase/p36.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我要去北京",
+    "path": "phrase_slow/p36_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "飞机几点到？",
+    "path": "phrase/p37.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "飞机几点到？",
+    "path": "phrase_slow/p37_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我在等出租车",
+    "path": "phrase/p38.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我在等出租车",
+    "path": "phrase_slow/p38_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "这个多少钱？",
+    "path": "phrase/p39.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "这个多少钱？",
+    "path": "phrase_slow/p39_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "有没有房间？",
+    "path": "phrase/p40.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "有没有房间？",
+    "path": "phrase_slow/p40_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "我迷路了",
+    "path": "phrase/p41.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "我迷路了",
+    "path": "phrase_slow/p41_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "请帮我一下",
+    "path": "phrase/p42.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "请帮我一下",
+    "path": "phrase_slow/p42_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "他比我高",
+    "path": "phrase/p43.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "他比我高",
+    "path": "phrase_slow/p43_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "中文比英文难",
+    "path": "phrase/p44.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "中文比英文难",
+    "path": "phrase_slow/p44_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你和我一样高",
+    "path": "phrase/p45.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你和我一样高",
+    "path": "phrase_slow/p45_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "这个更好",
+    "path": "phrase/p46.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "这个更好",
+    "path": "phrase_slow/p46_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "她跑得比我快",
+    "path": "phrase/p47.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "她跑得比我快",
+    "path": "phrase_slow/p47_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "今天比昨天热",
+    "path": "phrase/p48.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "今天比昨天热",
+    "path": "phrase_slow/p48_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "这是我的书",
+    "path": "phrase/p49.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "这是我的书",
+    "path": "phrase_slow/p49_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "她说得很快",
+    "path": "phrase/p50.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "她说得很快",
+    "path": "phrase_slow/p50_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "他高兴地笑了",
+    "path": "phrase/p51.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "他高兴地笑了",
+    "path": "phrase_slow/p51_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "你说得对",
+    "path": "phrase/p52.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "你说得对",
+    "path": "phrase_slow/p52_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "红色的车",
+    "path": "phrase/p53.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "红色的车",
+    "path": "phrase_slow/p53_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "学中文要学得好",
+    "path": "phrase/p54.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "学中文要学得好",
+    "path": "phrase_slow/p54_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "mā",
+    "path": "pair/pair_0.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "mā",
+    "path": "pair_slow/pair_0_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "mǎ",
+    "path": "pair/pair_1.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "mǎ",
+    "path": "pair_slow/pair_1_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "mǎi",
+    "path": "pair/pair_2.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "mǎi",
+    "path": "pair_slow/pair_2_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "mài",
+    "path": "pair/pair_3.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "mài",
+    "path": "pair_slow/pair_3_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "shū",
+    "path": "pair/pair_4.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "shū",
+    "path": "pair_slow/pair_4_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "shù",
+    "path": "pair/pair_5.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "shù",
+    "path": "pair_slow/pair_5_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "shuì",
+    "path": "pair/pair_6.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "shuì",
+    "path": "pair_slow/pair_6_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "shuǐ",
+    "path": "pair/pair_7.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "shuǐ",
+    "path": "pair_slow/pair_7_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "xī",
+    "path": "pair/pair_8.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "xī",
+    "path": "pair_slow/pair_8_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "xì",
+    "path": "pair/pair_9.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "xì",
+    "path": "pair_slow/pair_9_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "nǐ hǎo",
+    "path": "pair/pair_10.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "nǐ hǎo",
+    "path": "pair_slow/pair_10_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "ní hǎo",
+    "path": "pair/pair_11.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "ní hǎo",
+    "path": "pair_slow/pair_11_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "bù duì",
+    "path": "pair/pair_12.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "bù duì",
+    "path": "pair_slow/pair_12_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "bú duì",
+    "path": "pair/pair_13.mp3",
+    "type": "pair",
+    "slow": false
+  },
+  {
+    "text": "bú duì",
+    "path": "pair_slow/pair_13_slow.mp3",
+    "type": "pair_slow",
+    "slow": true
+  },
+  {
+    "text": "我喜欢学习中文",
+    "path": "extra/e1.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "我喜欢学习中文",
+    "path": "extra_slow/e1_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "请把门打开",
+    "path": "extra/e2.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "请把门打开",
+    "path": "extra_slow/e2_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "我把书放在桌上了",
+    "path": "extra/e3.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "我把书放在桌上了",
+    "path": "extra_slow/e3_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "如果下雨我就不去",
+    "path": "extra/e4.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "如果下雨我就不去",
+    "path": "extra_slow/e4_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "你的作业做完了吗？",
+    "path": "extra/e5.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "你的作业做完了吗？",
+    "path": "extra_slow/e5_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "我昨天买了一本书",
+    "path": "extra/e6.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "我昨天买了一本书",
+    "path": "extra_slow/e6_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "你怎么去学校？",
+    "path": "extra/e7.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "你怎么去学校？",
+    "path": "extra_slow/e7_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "一个星期有七天",
+    "path": "extra/e8.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "一个星期有七天",
+    "path": "extra_slow/e8_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "请问厕所在哪里？",
+    "path": "extra/e9.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "请问厕所在哪里？",
+    "path": "extra_slow/e9_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  },
+  {
+    "text": "这个菜太好吃了",
+    "path": "extra/e10.mp3",
+    "type": "extra",
+    "slow": false
+  },
+  {
+    "text": "这个菜太好吃了",
+    "path": "extra_slow/e10_slow.mp3",
+    "type": "extra_slow",
+    "slow": true
+  }
+]

@@ -74,7 +74,7 @@ export function PhraseList({ phrases, showPinyin, onTogglePinyin, onComplete, is
           <div className="phrase-content">
             <div className="phrase-hanzi">
               <span className="phrase-text">{phrase.chinese}</span>
-              <AudioButton text={phrase.chinese} />
+              <AudioButton text={phrase.chinese} showSlow />
             </div>
             {showPinyin && (
               <div className="phrase-pinyin">{phrase.pinyin}</div>
@@ -107,7 +107,7 @@ export function ExampleList({ examples }) {
         <div key={i} className="example-item">
           <div className="phrase-hanzi">
             <span>{ex.chinese}</span>
-            <AudioButton text={ex.chinese} />
+            <AudioButton text={ex.chinese} showSlow />
           </div>
           {showPinyin && <div className="phrase-pinyin">{ex.pinyin}</div>}
           <div className="phrase-french">{ex.french}</div>
@@ -123,14 +123,11 @@ export function ExerciseView({ exercise, onAnswer, feedback, onNext }) {
   const [typedAnswer, setTypedAnswer] = useState('');
 
   const isCorrect = () => {
-    if (exercise.type === 'fill') {
+    if (exercise.type === 'fill' || exercise.type === 'listen_dictation') {
       const typed = typedAnswer.trim();
       if (typed === exercise.answer) return true;
-      if (exercise.altAnswers && exercise.altAnswers.includes(typed)) return true;
+      if (exercise.altAnswers && exercise.altAnswers.some(a => typed.includes(a) || a.includes(typed))) return true;
       return false;
-    }
-    if (exercise.type.startsWith('listen_')) {
-      return selected === exercise.correctIndex;
     }
     return selected === exercise.correctIndex;
   };
@@ -149,27 +146,37 @@ export function ExerciseView({ exercise, onAnswer, feedback, onNext }) {
     onNext();
   };
 
-  const hasAudio = exercise.listenText || exercise.type.startsWith('listen_');
+  const hasAudio = exercise.listenText || exercise.listenTexts || exercise.type.startsWith('listen_');
 
   return (
     <div className={`exercise-card ${answered ? (isCorrect() ? 'correct' : 'wrong') : ''}`}>
       <div className="exercise-header">
         {hasAudio && (
           <div className="exercise-listen">
-            <AudioButton text={exercise.listenText} size="large" />
-            <span>Écouter</span>
+            {exercise.listenTexts ? (
+              // Multiple audio clips (pour choose_tone_triplet)
+              exercise.listenTexts.map((t, i) => (
+                <span key={i} className="multiaudio-item">
+                  <AudioButton text={t} size="large" showSlow />
+                  <span className="multiaudio-label">#{i + 1}</span>
+                </span>
+              ))
+            ) : (
+              <AudioButton text={exercise.listenText} size="large" showSlow />
+            )}
+            <span className="listen-hint">Écouter{exercise.listenTexts ? ' chaque syllabe' : ''}</span>
           </div>
         )}
         <p className="exercise-question">{exercise.instruction || exercise.question}</p>
       </div>
 
-      {exercise.type === 'fill' ? (
+      {(exercise.type === 'fill' || exercise.type === 'listen_dictation') ? (
         <div className="exercise-fill">
           <input
             type="text"
             value={typedAnswer}
             onChange={e => setTypedAnswer(e.target.value)}
-            placeholder="Tape ta réponse (sans pinyin)..."
+            placeholder={exercise.type === 'listen_dictation' ? 'Tape le pinyin (ex: ma3, ni3 hao3)...' : 'Tape ta réponse...'}
             disabled={answered}
             className="fill-input"
             autoFocus
@@ -192,7 +199,8 @@ export function ExerciseView({ exercise, onAnswer, feedback, onNext }) {
 
       <div className="exercise-actions">
         {!answered ? (
-          <button className="btn-primary" onClick={handleSubmit} disabled={exercise.type === 'fill' ? !typedAnswer : selected === null}>
+          <button className="btn-primary" onClick={handleSubmit} 
+            disabled={(exercise.type === 'fill' || exercise.type === 'listen_dictation') ? !typedAnswer : selected === null}>
             ✓ Vérifier
           </button>
         ) : (
@@ -215,7 +223,7 @@ export function SyllableCard({ syllable }) {
   return (
     <div className="syllable-card">
       <div className="syllable-pinyin">{syllable.pinyin}</div>
-      <AudioButton text={syllable.pinyin} size="large" />
+      <AudioButton text={syllable.pinyin} size="large" showSlow />
       <div className="syllable-desc">{syllable.description}</div>
       {syllable.example && (
         <div className="syllable-example">{syllable.example}</div>
@@ -229,7 +237,7 @@ export function VocabCard({ word, showPinyin, showJpNote }) {
     <div className="vocab-card">
       <div className="vocab-hanzi">
         <span className="vocab-char">{word.hanzi}</span>
-        <AudioButton text={word.hanzi} />
+        <AudioButton text={word.hanzi} showSlow />
       </div>
       {showPinyin && <div className="vocab-pinyin">{word.pinyin}</div>}
       <div className="vocab-french">{word.french}</div>
@@ -277,14 +285,14 @@ export function WordPair({ pair }) {
         <span className="pair-char">{pair.a.chinese}</span>
         <span className="pair-pinyin">{pair.a.pinyin}</span>
         <span className="pair-french">{pair.a.french}</span>
-        <AudioButton text={pair.a.pinyin} />
+        <AudioButton text={pair.a.pinyin} showSlow />
       </div>
       <div className="pair-vs">vs</div>
       <div className="pair-side">
         <span className="pair-char">{pair.b.chinese}</span>
         <span className="pair-pinyin">{pair.b.pinyin}</span>
         <span className="pair-french">{pair.b.french}</span>
-        <AudioButton text={pair.b.pinyin} />
+        <AudioButton text={pair.b.pinyin} showSlow />
       </div>
     </div>
   );

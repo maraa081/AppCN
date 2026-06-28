@@ -53,19 +53,19 @@ SYLLABLES = [
     "kāi", "guān", "dǎ", "fàng",
 ]
 
+RATES = [("", "-20%"), ("_slow", "-40%"), ("_native", "+0%")]
+
 for s in SYLLABLES:
-    CONTENT.append(("syllable", f"{s}.mp3", s, VOICE_FEMALE, "+0%"))
-    CONTENT.append(("syllable_slow", f"{s}_slow.mp3", s, VOICE_FEMALE, "-30%"))
+    for sfx, rate in RATES:
+        CONTENT.append(("syllable" + sfx, f"{s}{sfx}.mp3", s, VOICE_FEMALE, rate))
 
 # --- 2. Vocabulaire (lecture dynamique depuis data.js, avec vrais IDs) ---
-VOCAB_ENTRIES = []  # [(id, hanzi), ...]
+VOCAB_ENTRIES = []
 vocab_path = ROOT / "src/modules/Vocabulary/data.js"
 try:
     import re
     with open(vocab_path, "r", encoding="utf-8") as f:
         js_content = f.read()
-    # Extrait les paires (id, hanzi) dans l'ordre du fichier
-    # Format: { id: 'w##', ..., hanzi: '...', ... }
     matches = re.findall(r"id:\s*'(w\d+)'[^}]*?hanzi:\s*'([^']+)'", js_content, re.DOTALL)
     seen = set()
     for wid, hanzi in matches:
@@ -75,11 +75,11 @@ try:
     print(f"   {len(VOCAB_ENTRIES)} mots de vocabulaire chargés depuis data.js")
 except Exception as e:
     print(f"   ⚠️  Erreur chargement vocabulaire: {e}")
-    VOCAB_ENTRIES = [("w1", "你好")]  # fallback
+    VOCAB_ENTRIES = [("w1", "你好")]
 
 for wid, hanzi in VOCAB_ENTRIES:
-    CONTENT.append(("vocab", f"{wid}.mp3", hanzi, VOICE_FEMALE, "+0%"))
-    CONTENT.append(("vocab_slow", f"{wid}_slow.mp3", hanzi, VOICE_FEMALE, "-30%"))
+    for sfx, rate in RATES:
+        CONTENT.append(("vocab" + sfx, f"{wid}{sfx}.mp3", hanzi, VOICE_FEMALE, rate))
 
 # --- 3. Phrases (lecture dynamique depuis data.js) ---
 PHRASES = []
@@ -88,7 +88,6 @@ try:
     import re
     with open(phrase_path, "r", encoding="utf-8") as f:
         js_content = f.read()
-    # Extrait tous les champs chinese: dans l'ordre du fichier
     matches = re.findall(r"chinese:\s*'([^']+)'", js_content)
     seen = set()
     for txt in matches:
@@ -98,12 +97,12 @@ try:
     print(f"   {len(PHRASES)} phrases chargées depuis Phrases/data.js")
 except Exception as e:
     print(f"   ⚠️  Erreur chargement phrases: {e}")
-    PHRASES = ["你好"]  # fallback
+    PHRASES = ["你好"]
 
 for i, text in enumerate(PHRASES):
     pid = f"p{i+1}"
-    CONTENT.append(("phrase", f"{pid}.mp3", text, VOICE_FEMALE, "+0%"))
-    CONTENT.append(("phrase_slow", f"{pid}_slow.mp3", text, VOICE_FEMALE, "-30%"))
+    for sfx, rate in RATES:
+        CONTENT.append(("phrase" + sfx, f"{pid}{sfx}.mp3", text, VOICE_FEMALE, rate))
 
 # --- 4. Paires minimales (voix masculine) ---
 PAIRS = [
@@ -113,8 +112,8 @@ PAIRS = [
 ]
 
 for i, pinyin in enumerate(PAIRS):
-    CONTENT.append(("pair", f"pair_{i}.mp3", pinyin, VOICE_MALE, "+0%"))
-    CONTENT.append(("pair_slow", f"pair_{i}_slow.mp3", pinyin, VOICE_MALE, "-30%"))
+    for sfx, rate in RATES:
+        CONTENT.append(("pair" + sfx, f"pair_{i}{sfx}.mp3", pinyin, VOICE_MALE, rate))
 
 # --- 5. Extra (phrases avancées) ---
 EXTRA = [
@@ -127,8 +126,8 @@ EXTRA = [
 
 for i, text in enumerate(EXTRA):
     eid = f"e{i+1}"
-    CONTENT.append(("extra", f"{eid}.mp3", text, VOICE_FEMALE, "+0%"))
-    CONTENT.append(("extra_slow", f"{eid}_slow.mp3", text, VOICE_FEMALE, "-30%"))
+    for sfx, rate in RATES:
+        CONTENT.append(("extra" + sfx, f"{eid}{sfx}.mp3", text, VOICE_FEMALE, rate))
 
 
 async def generate_one(entry, force=False):

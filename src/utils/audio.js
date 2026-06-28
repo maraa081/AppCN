@@ -1,91 +1,78 @@
 /**
- * Gestionnaire audio MP3 pré-générés + manifest de lookup
- * Les fichiers sont dans public/audio/ servis statiquement par Vite
+ * Gestionnaire audio MP3 pré-générés (3 vitesses) + manifest lookup
+ * Les fichiers sont servis statiquement depuis public/audio/
  */
 
 const AUDIO_BASE = '/CN/audio/';
 let manifest = null;
-let manifestLoadPromise = null;
+let loadPromise = null;
 
-/**
- * Charge le manifest.json qui mappe texte → fichier audio
- */
 export async function loadManifest() {
   if (manifest) return manifest;
-  if (manifestLoadPromise) return manifestLoadPromise;
+  if (loadPromise) return loadPromise;
 
-  manifestLoadPromise = fetch(`${AUDIO_BASE}manifest.json`)
+  loadPromise = fetch(`${AUDIO_BASE}manifest.json`)
     .then(r => r.json())
-    .then(data => {
-      manifest = data;
-      return manifest;
-    })
-    .catch(() => {
-      manifest = [];
-      return manifest;
-    });
+    .then(data => { manifest = data; return manifest; })
+    .catch(() => { manifest = []; return manifest; });
 
-  return manifestLoadPromise;
+  return loadPromise;
 }
 
 /**
- * Cherche le chemin audio pour un texte donné
- * @param {string} text - Texte à chercher (hanzi, pinyin)
- * @param {object} options
- * @param {boolean} options.slow - Version lente ?
- * @param {string} options.type - Filtrer par type ('vocab', 'phrase', 'syllable', etc.)
- * @returns {string|null} Chemin relatif (ex: "vocab/w1.mp3") ou null
+ * Cherche le fichier audio pour un texte donné, en tenant compte de la vitesse
+ * @param {string} text
+ * @param {object} opts - { slow? (bool), native? (bool) }
+ * @returns {string|null} Chemin relatif
  */
-export async function findAudio(text, options = {}) {
-  const { slow = false, type = null } = options;
+export async function findAudio(text, opts = {}) {
+  const { slow = false, native = false } = opts;
   const mf = await loadManifest();
   if (!mf) return null;
 
-  const entry = mf.find(e =>
-    e.text === text &&
-    e.slow === slow &&
-    (!type || e.type.startsWith(type))
-  );
+  // Cherche en priorité la vitesse exacte
+  const candidates = mf.filter(e => e.text === text);
 
-  return entry ? entry.path : null;
+  if (native) {
+    const n = candidates.find(e => e.path.includes('_native'));
+    if (n) return n.path;
+  }
+  if (slow) {
+    const s = candidates.find(e => e.path.includes('_slow'));
+    if (s) return s.path;
+  }
+  // Default medium : ni slow ni native
+  const m = candidates.find(e => !e.path.includes('_slow') && !e.path.includes('_native'));
+  if (m) return m.path;
+
+  // Fallback : n'importe quel fichier correspondant
+  return candidates.length > 0 ? candidates[0].path : null;
 }
 
 /**
  * Joue un fichier audio
  */
-export function playAudio(path, options = {}) {
-  const { speed = 1.0, loop = false, onEnd } = options;
+export function playAudio(path, opts = {}) {
+  const { speed = 1.0, loop = false, onEnd } = opts;
   const audio = new Audio();
   audio.preload = 'auto';
   audio.src = `${AUDIO_BASE}${path}`;
   audio.playbackRate = speed;
   audio.loop = loop;
 
-  const controller = {
+  const ctrl = {
     stop() { audio.pause(); audio.currentTime = 0; },
     pause() { audio.pause(); },
     resume() { audio.play().catch(() => {}); },
     setSpeed(s) { audio.playbackRate = s; },
     setLoop(l) { audio.loop = l; },
-    audio,
   };
 
   audio.play().catch(e => console.warn('Audio:', e.message));
   if (onEnd) audio.onended = onEnd;
-
-  return controller;
+  return ctrl;
 }
 
-/**
- * Arrête tous les sons
- */
-export function stopAll() {
-  // Les éléments audio sont récupérés par le GC quand on les perd
-}
-
-/**
- * Précharge une liste de fichiers audio
- */
 export function preloadAudio(paths) {
   paths.forEach(path => {
     const a = new Audio();

@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import ModuleHeader from '../../components/ModuleHeader';
 import AudioButton from '../../components/AudioButton';
 import { VocabCard, StatsDisplay } from '../../components/SharedComponents';
-import { loadProgress, getDueWords, recordReview } from '../../utils/storage';
+import { loadProgress, getDueItems, recordSrsReview, loadPrefs } from '../../utils/storage';
 import vocabularyData from './data';
 
 export default function VocabularyModule({ onBack }) {
@@ -27,7 +27,7 @@ export default function VocabularyModule({ onBack }) {
     });
   }, [filterLevel, filterTheme]);
 
-  const dueWords = useMemo(() => getDueWords(allWords), [progress]);
+  const dueWords = useMemo(() => getDueItems(allWords, 'vocabulary'), [progress]);
 
   const flashcardWords = useMemo(() => {
     const words = flashcardMode === 'due' ? dueWords : filteredWords;
@@ -36,11 +36,14 @@ export default function VocabularyModule({ onBack }) {
 
   const currentFlashcard = flashcardWords[flashcardIndex];
 
-  const handleFlashcardAnswer = (success) => {
+  const [flashcardGrade, setFlashcardGrade] = useState(null);
+
+  const handleFlashcardAnswer = (grade) => {
     if (currentFlashcard) {
-      recordReview(currentFlashcard.id, success);
+      recordSrsReview(currentFlashcard.id, grade);
     }
     setFlashcardReveal(false);
+    setFlashcardGrade(null);
     setFlashcardIndex(prev => prev + 1);
   };
 
@@ -97,13 +100,26 @@ export default function VocabularyModule({ onBack }) {
                     <p>{currentFlashcard.jpNote}</p>
                   </div>
                 )}
-                <div className="flashcard-actions">
-                  <button className="btn-secondary btn-wrong" onClick={() => handleFlashcardAnswer(false)}>
-                    ❌ Pas retenu
-                  </button>
-                  <button className="btn-primary btn-correct" onClick={() => handleFlashcardAnswer(true)}>
-                    ✅ Retenu
-                  </button>
+                <div className="srs-grading">
+                  <p className="srs-prompt">Comment as-tu trouvé ce mot ?</p>
+                  <div className="srs-buttons">
+                    <button className="srs-btn srs-0" onClick={() => handleFlashcardAnswer(0)} title="Oublié - je ne me souvenais pas du tout">
+                      <span className="srs-label">Oublié</span>
+                    </button>
+                    <button className="srs-btn srs-1" onClick={() => handleFlashcardAnswer(1)} title="Difficile - je l'ai trouvé après quelques secondes">
+                      <span className="srs-label">Difficile</span>
+                    </button>
+                    <button className="srs-btn srs-2" onClick={() => handleFlashcardAnswer(2)} title="Moyen - j'ai hésité mais je l'ai eu">
+                      <span className="srs-label">Moyen</span>
+                    </button>
+                    <button className="srs-btn srs-3" onClick={() => handleFlashcardAnswer(3)} title="Facile - je le savais">
+                      <span className="srs-label">Facile</span>
+                    </button>
+                    <button className="srs-btn srs-4" onClick={() => handleFlashcardAnswer(4)} title="Parfait - je le connais parfaitement">
+                      <span className="srs-label">Parfait</span>
+                    </button>
+                  </div>
+                  <p className="srs-hint">Pas retenu → Oublié. Bien retenu → Parfait.</p>
                 </div>
               </div>
             )}

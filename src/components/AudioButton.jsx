@@ -1,36 +1,54 @@
 import { findAudio, playAudio, loadManifest } from '../utils/audio';
+import { loadPrefs, savePrefs } from '../utils/storage';
 import { useState, useRef, useEffect, useCallback } from 'react';
 
 /**
- * Bouton audio — utilise les MP3 pré-générés par edge-tts.
+ * Bouton audio — MP3 pré-générés (3 vitesses). Préférence sauvegardée.
  *
  * Props:
- * - text: Texte à prononcer (cherché dans le manifest)
- * - src: Chemin audio direct (prioritaire sur text)
- * - type: Filtre de type pour la recherche dans le manifest
+ * - text: Texte pour lookup dans le manifest
+ * - src: Chemin direct (prioritaire)
+ * - type: Filtre de lookup ('vocab', 'phrase', etc.)
  * - size: "small" | "large"
- * - label: Texte à côté du bouton
- * - showSlow: Afficher le bouton vitesse lente
+ * - label: Texte à côté
  */
-export default function AudioButton({ text, src, type, size = 'small', label, showSlow = false }) {
-  const [state, setState] = useState('idle'); // idle | loading | playing | error
-  const [speed, setSpeed] = useState(1.0);     // 1.0 normal, 0.7 slow
+export default function AudioButton({ text, src, type, size = 'small', label }) {
+  const [state, setState] = useState('idle');
+  const [speed, setSpeed] = useState(null); // 'slow' | 'medium' | 'native'
   const [loop, setLoop] = useState(false);
   const ctrlRef = useRef(null);
-  const [manifestReady, setManifestReady] = useState(false);
 
-  // Précharge le manifest au montage
+  // Charger la préférence de vitesse
   useEffect(() => {
-    loadManifest().then(() => setManifestReady(true));
+    const prefs = loadPrefs();
+    setSpeed(prefs.audioSpeed || 'medium');
+  }, []);
+
+  const getSpeedSuffix = useCallback((s) => {
+    if (s === 'slow') return '_slow.mp3';
+    if (s === 'native') return '_native.mp3';
+    return '.mp3'; // medium = default
   }, []);
 
   const getPath = useCallback(async () => {
     if (src) return src;
     if (!text) return null;
-    // Cherche dans le manifest
-    const found = await findAudio(text, { slow: speed < 1, type });
-    return found;
-  }, [src, text, speed, type]);
+
+    const suffix = getSpeedSuffix(speed);
+    // Try exact speed first
+    const exact = await findAudio(text, { slow: suffix === '_slow.mp3' });
+    if (exact) return exact;
+
+    // Fallback: try medium
+    if (speed !== 'medium') {
+      const medium = await findAudio(text, { slow: false });
+      if (medium) return medium;
+    }
+
+    // Fallback: any type
+    const any = await findAudio(text, {});
+    return any;
+  }, [src, text, speed, getSpeedSuffix]);
 
   const handlePlay = async () => {
     if (ctrlRef.current) {
@@ -48,7 +66,7 @@ export default function AudioButton({ text, src, type, size = 'small', label, sh
 
     setState('playing');
     ctrlRef.current = playAudio(path, {
-      speed,
+      speed: 1.0,  // Vitesse déjà codée dans le fichier
       loop,
       onEnd: () => {
         setState('idle');
@@ -65,12 +83,23 @@ export default function AudioButton({ text, src, type, size = 'small', label, sh
     setState('idle');
   };
 
-  const toggleSpeed = (e) => {
+  const cycleSpeed = (e) => {
     e.stopPropagation();
-    const newSpeed = speed === 1.0 ? 0.7 : 1.0;
-    setSpeed(newSpeed);
-    if (ctrlRef.current) {
-      ctrlRef.current.setSpeed(newSpeed);
+    const speeds = ['slow', 'medium', 'native'];
+    const labels = { slow: '🐢 -40%', medium: '▶ -20%', native: '⏩ +0%' };
+    const idx = speeds.indexOf(speed);
+    const next = speeds[(idx + 1) % 3];
+    setSpeed(next);
+
+    // Sauvegarder la préférence
+    const prefs = loadPrefs();
+    prefs.audioSpeed = next;
+    savePrefs(prefs);
+
+    // Si lecture en cours, redémarrer avec la nouvelle vitesse
+    if (state === 'playing') {
+      handleStop();
+      setTimeout(handlePlay, 100);
     }
   };
 
@@ -82,11 +111,13 @@ export default function AudioButton({ text, src, type, size = 'small', label, sh
     }
   };
 
-  const btnIcon = state === 'playing' ? '⏹' : state === 'loading' ? '⏳' : state === 'error' ? '⚠️' : speed < 1 ? '🐢' : '🔊';
+  const speedLabels = { slow: '⏪', medium: '▶', native: '⏩' };
+  const speedTitle = { slow: 'Lent (-40%)', medium: 'Moyen (-20%)', native: 'Rapide (+0%)' };
+
+  const btnIcon = state === 'playing' ? '⏹' : state === 'loading' ? '⏳' : state === 'error' ? '⚠️' : speedLabels[speed] || '▶';
   const btnTitle = state === 'playing' ? 'Arrêter'
     : state === 'error' ? 'Audio introuvable'
-    : speed < 1 ? `Écouter (lent -30%)`
-    : 'Écouter';
+    : `Écouter (${speedTitle[speed] || 'moyen'})`;
 
   return (
     <span className="audio-group">
@@ -97,13 +128,13 @@ export default function AudioButton({ text, src, type, size = 'small', label, sh
       >
         {btnIcon}
       </button>
-      {showSlow && state === 'idle' && (
+      {state !== 'playing' && (
         <button
-          className={`audio-btn speed-btn ${speed < 1 ? 'active' : ''} ${size}`}
-          onClick={toggleSpeed}
-          title={speed < 1 ? 'Vitesse normale' : 'Ralentir (-30%)'}
+          className={`audio-btn speed-btn ${size}`}
+          onClick={cycleSpeed}
+          title={`Vitesse : ${speedTitle[speed] || 'moyen'}. Cliquer pour changer.`}
         >
-          🐢
+          {speedLabels[speed]}
         </button>
       )}
       {state === 'playing' && (

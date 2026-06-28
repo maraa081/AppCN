@@ -57,21 +57,24 @@ for s in SYLLABLES:
     CONTENT.append(("syllable", f"{s}.mp3", s, VOICE_FEMALE, "+0%"))
     CONTENT.append(("syllable_slow", f"{s}_slow.mp3", s, VOICE_FEMALE, "-30%"))
 
-# --- 2. Vocabulaire ---
-VOCAB = [
-    "你好", "再见", "谢谢", "对不起", "没关系", "请", "不客气", "早上好", "晚上好",
-    "爸爸", "妈妈", "哥哥", "姐姐", "妹妹", "朋友",
-    "一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千",
-    "水", "茶", "咖啡", "米饭", "书", "电话", "电脑", "手表", "衣服", "家",
-    "吃", "喝", "苹果", "牛奶", "面包", "肉", "鸡蛋",
-    "时间", "今天", "明天", "昨天", "星期", "学校", "老师", "学生",
-    "汉语", "英语", "法国", "中国", "日本", "医院", "钱",
-    "喜欢", "知道", "认识", "便宜",
-    "经济", "社会", "文化", "国际", "关系", "问题", "发展", "学习",
-    "决定", "经验", "意思", "特别", "开始", "可以", "应该",
-    "因为", "所以", "虽然", "但是", "已经", "可能", "漂亮", "努力",
-    "贵", "吃猪肉",
-]
+# --- 2. Vocabulaire (lecture dynamique depuis data.js) ---
+VOCAB = []
+vocab_path = ROOT / "src/modules/Vocabulary/data.js"
+try:
+    import re
+    with open(vocab_path, "r", encoding="utf-8") as f:
+        js_content = f.read()
+    # Extraction de tous les hanzi dans l'ordre du fichier
+    matches = re.findall(r"hanzi:\s*'([^']+)'", js_content)
+    seen = set()
+    for h in matches:
+        if h not in seen:
+            seen.add(h)
+            VOCAB.append(h)
+    print(f"   {len(VOCAB)} mots de vocabulaire chargés depuis data.js")
+except Exception as e:
+    print(f"   ⚠️  Erreur chargement vocabulaire: {e}")
+    VOCAB = ["你好"]  # fallback
 
 for i, hanzi in enumerate(VOCAB):
     wid = f"w{i+1}"

@@ -57,27 +57,27 @@ for s in SYLLABLES:
     CONTENT.append(("syllable", f"{s}.mp3", s, VOICE_FEMALE, "+0%"))
     CONTENT.append(("syllable_slow", f"{s}_slow.mp3", s, VOICE_FEMALE, "-30%"))
 
-# --- 2. Vocabulaire (lecture dynamique depuis data.js) ---
-VOCAB = []
+# --- 2. Vocabulaire (lecture dynamique depuis data.js, avec vrais IDs) ---
+VOCAB_ENTRIES = []  # [(id, hanzi), ...]
 vocab_path = ROOT / "src/modules/Vocabulary/data.js"
 try:
     import re
     with open(vocab_path, "r", encoding="utf-8") as f:
         js_content = f.read()
-    # Extraction de tous les hanzi dans l'ordre du fichier
-    matches = re.findall(r"hanzi:\s*'([^']+)'", js_content)
+    # Extrait les paires (id, hanzi) dans l'ordre du fichier
+    # Format: { id: 'w##', ..., hanzi: '...', ... }
+    matches = re.findall(r"id:\s*'(w\d+)'[^}]*?hanzi:\s*'([^']+)'", js_content, re.DOTALL)
     seen = set()
-    for h in matches:
-        if h not in seen:
-            seen.add(h)
-            VOCAB.append(h)
-    print(f"   {len(VOCAB)} mots de vocabulaire chargés depuis data.js")
+    for wid, hanzi in matches:
+        if wid not in seen:
+            seen.add(wid)
+            VOCAB_ENTRIES.append((wid, hanzi))
+    print(f"   {len(VOCAB_ENTRIES)} mots de vocabulaire chargés depuis data.js")
 except Exception as e:
     print(f"   ⚠️  Erreur chargement vocabulaire: {e}")
-    VOCAB = ["你好"]  # fallback
+    VOCAB_ENTRIES = [("w1", "你好")]  # fallback
 
-for i, hanzi in enumerate(VOCAB):
-    wid = f"w{i+1}"
+for wid, hanzi in VOCAB_ENTRIES:
     CONTENT.append(("vocab", f"{wid}.mp3", hanzi, VOICE_FEMALE, "+0%"))
     CONTENT.append(("vocab_slow", f"{wid}_slow.mp3", hanzi, VOICE_FEMALE, "-30%"))
 

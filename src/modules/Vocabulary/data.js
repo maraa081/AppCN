@@ -470,8 +470,16 @@ const vocabularyData = {
     { id: 'w378', hanzi: '关于', pinyin: 'guān yú', french: 'À propos de / Concernant', theme: 'quotidien', level: 'avance' },
     { id: 'w379', hanzi: '对于', pinyin: 'duì yú', french: 'Envers / Pour', theme: 'quotidien', level: 'avance' },
 
+    // === Mots manquants restaurés ===
+    { id: 'w28', hanzi: '水', pinyin: 'shuǐ', french: 'Eau', theme: 'nourriture', level: 'debutant', jpKanji: true, jpNote: '水 = mizu/すい' },
+    { id: 'w29', hanzi: '茶', pinyin: 'chá', french: 'Thé', theme: 'nourriture', level: 'debutant', jpKanji: true, jpNote: '茶 = cha, prononciation proche !' },
+    { id: 'w30', hanzi: '咖啡', pinyin: 'kā fēi', french: 'Café', theme: 'nourriture', level: 'debutant' },
+    { id: 'w32', hanzi: '书', pinyin: 'shū', french: 'Livre', theme: 'quotidien', level: 'debutant', jpKanji: true, jpNote: '书 = 書 (sho/かく)' },
+    { id: 'w33', hanzi: '电话', pinyin: 'diàn huà', french: 'Téléphone', theme: 'quotidien', level: 'debutant' },
+    { id: 'w34', hanzi: '电脑', pinyin: 'diàn nǎo', french: 'Ordinateur', theme: 'quotidien', level: 'debutant' },
+    { id: 'w35', hanzi: '手表', pinyin: 'shǒu biǎo', french: 'Montre (poignet)', theme: 'quotidien', level: 'debutant' },
+
     // === Fin du vocabulaire ===
-    // Total approximatif : ~470 mots
   ],
 };
 

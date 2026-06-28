@@ -421,6 +421,61 @@ body {
   font-size: 0.9em;
 }
 
+/* Speed selector menu */
+.speed-selector {
+  position: relative;
+  display: inline-flex;
+}
+
+.speed-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+  z-index: 200;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 100px;
+  animation: fadeIn 0.12s ease-out;
+}
+
+.speed-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.8em;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.speed-option:hover {
+  background: rgba(232, 184, 75, 0.12);
+}
+
+.speed-option.active {
+  background: rgba(232, 184, 75, 0.2);
+  color: var(--accent);
+}
+
+.speed-pct {
+  color: var(--text-dim);
+  font-size: 0.85em;
+  margin-left: auto;
+}
+
 /* === Phrase List === */
 .phrase-controls {
   display: flex;

@@ -378,6 +378,16 @@ body {
   animation: pulse 0.8s infinite;
 }
 
+.audio-btn.error {
+  background: rgba(224, 85, 94, 0.2);
+  border-color: var(--wrong);
+}
+
+.audio-btn.error:hover {
+  background: var(--wrong);
+  color: white;
+}
+
 .audio-btn.large {
   width: 48px;
   height: 48px;

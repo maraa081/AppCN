@@ -19,10 +19,11 @@ echo "🏗️  Build..."
 npx vite build --silent
 
 echo ""
-echo "🚀 AppCN lancé sur http://localhost:$PORT"
+echo "🚀 AppCN lancé sur http://localhost:$PORT/CN/"
 if [ -n "$HOST_FLAG" ]; then
-  echo "   Réseau local: http://$(hostname -I | awk '{print $1}'):$PORT"
+  echo "   Réseau local: http://$(hostname -I | awk '{print $1}'):$PORT/CN/"
 fi
+echo "   Via Caddy : https://guaiguai2.duckdns.org/CN/"
 echo "   Appuyez sur Ctrl+C pour arrêter"
 echo ""
 

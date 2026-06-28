@@ -54,22 +54,8 @@ export function LessonCard({ lesson, moduleId, level, completed, onStart }) {
   );
 }
 
-export function PhraseList({ phrases, showPinyin, onTogglePinyin, level, moduleId, lessonId, onComplete }) {
-  const [hidden, setHidden] = useState({});
+export function PhraseList({ phrases, showPinyin, onTogglePinyin, onComplete, isCompleted }) {
   const [showFrench, setShowFrench] = useState(false);
-
-  const toggleField = (idx, field) => {
-    setHidden(prev => ({
-      ...prev,
-      [`${idx}-${field}`]: !prev[`${idx}-${field}`]
-    }));
-  };
-
-  const toggleAllPinyin = () => {
-    setShowFrench(!showFrench);
-  };
-
-  const allRevealed = phrases.every((_, i) => hidden[`${i}-french`]);
 
   return (
     <div className="phrase-list">
@@ -79,7 +65,7 @@ export function PhraseList({ phrases, showPinyin, onTogglePinyin, level, moduleI
           Afficher le pinyin
         </label>
         <label className="toggle-label">
-          <input type="checkbox" checked={showFrench} onChange={toggleAllPinyin} />
+          <input type="checkbox" checked={showFrench} onChange={() => setShowFrench(!showFrench)} />
           Afficher la traduction
         </label>
       </div>
@@ -101,7 +87,7 @@ export function PhraseList({ phrases, showPinyin, onTogglePinyin, level, moduleI
       ))}
       {onComplete && (
         <button className="btn-primary btn-complete" onClick={onComplete}>
-          ✅ Leçon terminée
+          {isCompleted ? '✅ Déjà terminée' : '✅ Leçon terminée'}
         </button>
       )}
     </div>

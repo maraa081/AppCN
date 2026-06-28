@@ -8,16 +8,27 @@ export default function PhrasesModule({ onBack }) {
   const [level, setLevel] = useState('debutant');
   const [activeLesson, setActiveLesson] = useState(null);
   const [showPinyin, setShowPinyin] = useState(true);
-  const progress = loadProgress();
+  const [completedLessons, setCompletedLessons] = useState(() => {
+    const p = loadProgress();
+    const completed = {};
+    Object.keys(p.phrases || {}).forEach(lvl => {
+      Object.keys(p.phrases[lvl] || {}).forEach(lid => {
+        if (p.phrases[lvl][lid]?.completed) completed[lid] = true;
+      });
+    });
+    return completed;
+  });
+
   const levels = phrasesData.levels;
 
   const isCompleted = (lessonId) => {
-    return progress.phrases?.[level]?.[lessonId]?.completed || false;
+    return completedLessons[lessonId] || false;
   };
 
   const handleCompleteLesson = () => {
     if (activeLesson) {
       completeLesson('phrases', level, activeLesson.id);
+      setCompletedLessons(prev => ({ ...prev, [activeLesson.id]: true }));
     }
   };
 
@@ -32,6 +43,7 @@ export default function PhrasesModule({ onBack }) {
         <div className="module-content">
           {activeLesson.grammarExplanation && (
             <div className="grammar-box">
+              <h3>📖 Point grammatical : {activeLesson.grammarPoint}</h3>
               <p>{activeLesson.grammarExplanation}</p>
               {activeLesson.jpNote && (
                 <div className="jp-note">
@@ -41,12 +53,16 @@ export default function PhrasesModule({ onBack }) {
               )}
             </div>
           )}
-          <PhraseList
-            phrases={activeLesson.phrases}
-            showPinyin={showPinyin}
-            onTogglePinyin={() => setShowPinyin(!showPinyin)}
-            onComplete={handleCompleteLesson}
-          />
+          <div className="examples-section">
+            <h3>📝 Phrases</h3>
+            <PhraseList
+              phrases={activeLesson.phrases}
+              showPinyin={showPinyin}
+              onTogglePinyin={() => setShowPinyin(!showPinyin)}
+              onComplete={handleCompleteLesson}
+              isCompleted={isCompleted(activeLesson.id)}
+            />
+          </div>
         </div>
       </div>
     );

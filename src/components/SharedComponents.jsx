@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import AudioButton from './AudioButton';
+import { loadDictionary, segmentText } from '../utils/segmenter';
 
 export default function LevelSelector({ levels, currentLevel, onSelect }) {
   const levelKeys = Object.keys(levels);
@@ -54,26 +55,69 @@ export function LessonCard({ lesson, moduleId, level, completed, onStart }) {
   );
 }
 
-export function PhraseList({ phrases, showPinyin, onTogglePinyin, onComplete, isCompleted }) {
+function SegmentedText({ text }) {
+  const [activeWord, setActiveWord] = useState(null);
+  const [segments, setSegments] = useState(() => segmentText(text));
+
+  // Ré-segmente si le dictionnaire change
+  useEffect(() => {
+    setSegments(segmentText(text));
+  }, [text]);
+
+  return (
+    <span className="segmented-text">
+      {segments.map((seg, i) => (
+        <span
+          key={i}
+          className={`word-segment ${seg.isVocab ? 'has-audio' : ''} ${activeWord === i ? 'active' : ''}`}
+          onClick={() => setActiveWord(activeWord === i ? null : i)}
+          title={seg.isVocab ? seg.pinyin || '' : ''}
+        >
+          {seg.hanzi}
+          {activeWord === i && seg.isVocab && (
+            <span className="word-popup" onClick={e => e.stopPropagation()}>
+              <span className="word-pinyin">{seg.pinyin}</span>
+              <AudioButton
+                text={seg.hanzi}
+                type="vocab"
+                size="small"
+                showSlow
+              />
+            </span>
+          )}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+export function PhraseList({ phrases, showPinyin, onTogglePinyin, onComplete, isCompleted, vocabWords }) {
   const [showFrench, setShowFrench] = useState(false);
+
+  // Charger le dictionnaire pour la segmentation
+  useEffect(() => {
+    if (vocabWords) {
+      loadDictionary(vocabWords);
+    }
+  }, [vocabWords]);
 
   return (
     <div className="phrase-list">
       <div className="phrase-controls">
         <label className="toggle-label">
           <input type="checkbox" checked={showPinyin} onChange={onTogglePinyin} />
-          Afficher le pinyin
+          Pinyin
         </label>
         <label className="toggle-label">
           <input type="checkbox" checked={showFrench} onChange={() => setShowFrench(!showFrench)} />
-          Afficher la traduction
+          Traduction
         </label>
       </div>
       {phrases.map((phrase, idx) => (
         <div key={idx} className="phrase-card">
           <div className="phrase-content">
             <div className="phrase-hanzi">
-              <span className="phrase-text">{phrase.chinese}</span>
+              <SegmentedText text={phrase.chinese} />
               <AudioButton text={phrase.chinese} showSlow />
             </div>
             {showPinyin && (

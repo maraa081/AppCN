@@ -3,6 +3,7 @@ import ModuleHeader from '../../components/ModuleHeader';
 import LevelSelector, { LessonCard, PhraseList } from '../../components/SharedComponents';
 import { loadProgress, completeLesson } from '../../utils/storage';
 import phrasesData from './data';
+import vocabularyData from '../Vocabulary/data';
 
 export default function PhrasesModule({ onBack }) {
   const [level, setLevel] = useState('debutant');
@@ -61,6 +62,7 @@ export default function PhrasesModule({ onBack }) {
               onTogglePinyin={() => setShowPinyin(!showPinyin)}
               onComplete={handleCompleteLesson}
               isCompleted={isCompleted(activeLesson.id)}
+              vocabWords={vocabularyData.words}
             />
           </div>
         </div>

@@ -2304,19 +2304,19 @@
     "slow": false
   },
   {
-    "text": "再见明天见",
+    "text": "明天见",
     "path": "vocab/w94.mp3",
     "type": "vocab",
     "slow": false
   },
   {
-    "text": "再见明天见",
+    "text": "明天见",
     "path": "vocab_slow/w94_slow.mp3",
     "type": "vocab_slow",
     "slow": true
   },
   {
-    "text": "再见明天见",
+    "text": "明天见",
     "path": "vocab_native/w94_native.mp3",
     "type": "vocab_native",
     "slow": false
@@ -3762,6 +3762,24 @@
     "slow": false
   },
   {
+    "text": "汽水",
+    "path": "vocab/w380.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "汽水",
+    "path": "vocab_slow/w380_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "汽水",
+    "path": "vocab_native/w380_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
     "text": "衣服",
     "path": "vocab/w36.mp3",
     "type": "vocab",
@@ -4334,6 +4352,24 @@
   {
     "text": "公共汽车",
     "path": "vocab_native/w179_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "公交车",
+    "path": "vocab/w381.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "公交车",
+    "path": "vocab_slow/w381_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "公交车",
+    "path": "vocab_native/w381_native.mp3",
     "type": "vocab_native",
     "slow": false
   },
@@ -8640,6 +8676,1500 @@
     "slow": false
   },
   {
+    "text": "我",
+    "path": "vocab/w382.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "我",
+    "path": "vocab_slow/w382_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "我",
+    "path": "vocab_native/w382_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "你",
+    "path": "vocab/w383.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "你",
+    "path": "vocab_slow/w383_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "你",
+    "path": "vocab_native/w383_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "他",
+    "path": "vocab/w384.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "他",
+    "path": "vocab_slow/w384_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "他",
+    "path": "vocab_native/w384_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "她",
+    "path": "vocab/w385.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "她",
+    "path": "vocab_slow/w385_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "她",
+    "path": "vocab_native/w385_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "我们",
+    "path": "vocab/w386.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "我们",
+    "path": "vocab_slow/w386_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "我们",
+    "path": "vocab_native/w386_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "人",
+    "path": "vocab/w387.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "人",
+    "path": "vocab_slow/w387_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "人",
+    "path": "vocab_native/w387_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "是",
+    "path": "vocab/w388.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "是",
+    "path": "vocab_slow/w388_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "是",
+    "path": "vocab_native/w388_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "有",
+    "path": "vocab/w389.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "有",
+    "path": "vocab_slow/w389_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "有",
+    "path": "vocab_native/w389_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "叫",
+    "path": "vocab/w390.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "叫",
+    "path": "vocab_slow/w390_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "叫",
+    "path": "vocab_native/w390_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "爱",
+    "path": "vocab/w391.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "爱",
+    "path": "vocab_slow/w391_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "爱",
+    "path": "vocab_native/w391_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "在",
+    "path": "vocab/w392.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "在",
+    "path": "vocab_slow/w392_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "在",
+    "path": "vocab_native/w392_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "回",
+    "path": "vocab/w393.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "回",
+    "path": "vocab_slow/w393_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "回",
+    "path": "vocab_native/w393_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "看见",
+    "path": "vocab/w394.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "看见",
+    "path": "vocab_slow/w394_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "看见",
+    "path": "vocab_native/w394_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "睡觉",
+    "path": "vocab/w395.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "睡觉",
+    "path": "vocab_slow/w395_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "睡觉",
+    "path": "vocab_native/w395_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "打电话",
+    "path": "vocab/w396.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "打电话",
+    "path": "vocab_slow/w396_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "打电话",
+    "path": "vocab_native/w396_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "工作",
+    "path": "vocab/w397.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "工作",
+    "path": "vocab_slow/w397_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "工作",
+    "path": "vocab_native/w397_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "的",
+    "path": "vocab/w398.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "的",
+    "path": "vocab_slow/w398_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "的",
+    "path": "vocab_native/w398_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "了",
+    "path": "vocab/w399.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "了",
+    "path": "vocab_slow/w399_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "了",
+    "path": "vocab_native/w399_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "不",
+    "path": "vocab/w400.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "不",
+    "path": "vocab_slow/w400_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "不",
+    "path": "vocab_native/w400_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "没有",
+    "path": "vocab/w401.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "没有",
+    "path": "vocab_slow/w401_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "没有",
+    "path": "vocab_native/w401_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "吗",
+    "path": "vocab/w402.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "吗",
+    "path": "vocab_slow/w402_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "吗",
+    "path": "vocab_native/w402_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "呢",
+    "path": "vocab/w403.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "呢",
+    "path": "vocab_slow/w403_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "呢",
+    "path": "vocab_native/w403_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "和",
+    "path": "vocab/w404.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "和",
+    "path": "vocab_slow/w404_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "和",
+    "path": "vocab_native/w404_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "什么",
+    "path": "vocab/w405.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "什么",
+    "path": "vocab_slow/w405_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "什么",
+    "path": "vocab_native/w405_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "谁",
+    "path": "vocab/w406.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "谁",
+    "path": "vocab_slow/w406_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "谁",
+    "path": "vocab_native/w406_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "哪",
+    "path": "vocab/w407.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "哪",
+    "path": "vocab_slow/w407_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "哪",
+    "path": "vocab_native/w407_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "怎么",
+    "path": "vocab/w408.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "怎么",
+    "path": "vocab_slow/w408_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "怎么",
+    "path": "vocab_native/w408_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "这",
+    "path": "vocab/w409.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "这",
+    "path": "vocab_slow/w409_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "这",
+    "path": "vocab_native/w409_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "那",
+    "path": "vocab/w410.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "那",
+    "path": "vocab_slow/w410_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "那",
+    "path": "vocab_native/w410_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "很",
+    "path": "vocab/w411.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "很",
+    "path": "vocab_slow/w411_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "很",
+    "path": "vocab_native/w411_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "太",
+    "path": "vocab/w412.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "太",
+    "path": "vocab_slow/w412_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "太",
+    "path": "vocab_native/w412_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "都",
+    "path": "vocab/w413.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "都",
+    "path": "vocab_slow/w413_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "都",
+    "path": "vocab_native/w413_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "上",
+    "path": "vocab/w414.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "上",
+    "path": "vocab_slow/w414_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "上",
+    "path": "vocab_native/w414_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "下",
+    "path": "vocab/w415.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "下",
+    "path": "vocab_slow/w415_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "下",
+    "path": "vocab_native/w415_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "里",
+    "path": "vocab/w416.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "里",
+    "path": "vocab_slow/w416_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "里",
+    "path": "vocab_native/w416_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "个",
+    "path": "vocab/w417.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "个",
+    "path": "vocab_slow/w417_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "个",
+    "path": "vocab_native/w417_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "块",
+    "path": "vocab/w418.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "块",
+    "path": "vocab_slow/w418_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "块",
+    "path": "vocab_native/w418_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "岁",
+    "path": "vocab/w419.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "岁",
+    "path": "vocab_slow/w419_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "岁",
+    "path": "vocab_native/w419_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "本",
+    "path": "vocab/w420.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "本",
+    "path": "vocab_slow/w420_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "本",
+    "path": "vocab_native/w420_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "些",
+    "path": "vocab/w421.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "些",
+    "path": "vocab_slow/w421_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "些",
+    "path": "vocab_native/w421_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "先生",
+    "path": "vocab/w422.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "先生",
+    "path": "vocab_slow/w422_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "先生",
+    "path": "vocab_native/w422_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "北京",
+    "path": "vocab/w423.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "北京",
+    "path": "vocab_slow/w423_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "北京",
+    "path": "vocab_native/w423_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "时候",
+    "path": "vocab/w424.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "时候",
+    "path": "vocab_slow/w424_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "时候",
+    "path": "vocab_native/w424_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "上午",
+    "path": "vocab/w425.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "上午",
+    "path": "vocab_slow/w425_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "上午",
+    "path": "vocab_native/w425_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "东西",
+    "path": "vocab/w426.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "东西",
+    "path": "vocab_slow/w426_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "东西",
+    "path": "vocab_native/w426_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "菜",
+    "path": "vocab/w427.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "菜",
+    "path": "vocab_slow/w427_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "菜",
+    "path": "vocab_native/w427_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "点",
+    "path": "vocab/w428.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "点",
+    "path": "vocab_slow/w428_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "点",
+    "path": "vocab_native/w428_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "电视",
+    "path": "vocab/w429.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "电视",
+    "path": "vocab_slow/w429_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "电视",
+    "path": "vocab_native/w429_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "字",
+    "path": "vocab/w430.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "字",
+    "path": "vocab_slow/w430_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "字",
+    "path": "vocab_native/w430_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "杯子",
+    "path": "vocab/w431.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "杯子",
+    "path": "vocab_slow/w431_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "杯子",
+    "path": "vocab_native/w431_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "比",
+    "path": "vocab/w432.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "比",
+    "path": "vocab_slow/w432_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "比",
+    "path": "vocab_native/w432_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "再",
+    "path": "vocab/w433.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "再",
+    "path": "vocab_slow/w433_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "再",
+    "path": "vocab_native/w433_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "就",
+    "path": "vocab/w434.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "就",
+    "path": "vocab_slow/w434_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "就",
+    "path": "vocab_native/w434_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "非常",
+    "path": "vocab/w435.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "非常",
+    "path": "vocab_slow/w435_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "非常",
+    "path": "vocab_native/w435_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "出",
+    "path": "vocab/w436.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "出",
+    "path": "vocab_slow/w436_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "出",
+    "path": "vocab_native/w436_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "到",
+    "path": "vocab/w437.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "到",
+    "path": "vocab_slow/w437_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "到",
+    "path": "vocab_native/w437_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "走",
+    "path": "vocab/w438.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "走",
+    "path": "vocab_slow/w438_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "走",
+    "path": "vocab_native/w438_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "穿",
+    "path": "vocab/w439.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "穿",
+    "path": "vocab_slow/w439_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "穿",
+    "path": "vocab_native/w439_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "拿",
+    "path": "vocab/w440.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "拿",
+    "path": "vocab_slow/w440_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "拿",
+    "path": "vocab_native/w440_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "让",
+    "path": "vocab/w441.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "让",
+    "path": "vocab_slow/w441_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "让",
+    "path": "vocab_native/w441_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "懂",
+    "path": "vocab/w442.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "懂",
+    "path": "vocab_slow/w442_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "懂",
+    "path": "vocab_native/w442_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "对",
+    "path": "vocab/w443.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "对",
+    "path": "vocab_slow/w443_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "对",
+    "path": "vocab_native/w443_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "玩",
+    "path": "vocab/w444.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "玩",
+    "path": "vocab_slow/w444_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "玩",
+    "path": "vocab_native/w444_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "快乐",
+    "path": "vocab/w445.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "快乐",
+    "path": "vocab_slow/w445_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "快乐",
+    "path": "vocab_native/w445_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "身体",
+    "path": "vocab/w446.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "身体",
+    "path": "vocab_slow/w446_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "身体",
+    "path": "vocab_native/w446_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "希望",
+    "path": "vocab/w447.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "希望",
+    "path": "vocab_slow/w447_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "希望",
+    "path": "vocab_native/w447_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "明白",
+    "path": "vocab/w448.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "明白",
+    "path": "vocab_slow/w448_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "明白",
+    "path": "vocab_native/w448_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "准备",
+    "path": "vocab/w449.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "准备",
+    "path": "vocab_slow/w449_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "准备",
+    "path": "vocab_native/w449_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "旅游",
+    "path": "vocab/w450.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "旅游",
+    "path": "vocab_slow/w450_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "旅游",
+    "path": "vocab_native/w450_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "把",
+    "path": "vocab/w451.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "把",
+    "path": "vocab_slow/w451_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "把",
+    "path": "vocab_native/w451_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "被",
+    "path": "vocab/w452.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "被",
+    "path": "vocab_slow/w452_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "被",
+    "path": "vocab_native/w452_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "从",
+    "path": "vocab/w453.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "从",
+    "path": "vocab_slow/w453_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "从",
+    "path": "vocab_native/w453_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "地方",
+    "path": "vocab/w454.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "地方",
+    "path": "vocab_slow/w454_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "地方",
+    "path": "vocab_native/w454_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "习惯",
+    "path": "vocab/w455.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "习惯",
+    "path": "vocab_slow/w455_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "习惯",
+    "path": "vocab_native/w455_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "当然",
+    "path": "vocab/w456.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "当然",
+    "path": "vocab_slow/w456_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "当然",
+    "path": "vocab_native/w456_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "自己",
+    "path": "vocab/w457.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "自己",
+    "path": "vocab_slow/w457_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "自己",
+    "path": "vocab_native/w457_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "需要",
+    "path": "vocab/w458.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "需要",
+    "path": "vocab_slow/w458_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "需要",
+    "path": "vocab_native/w458_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "突然",
+    "path": "vocab/w459.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "突然",
+    "path": "vocab_slow/w459_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "突然",
+    "path": "vocab_native/w459_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "跟",
+    "path": "vocab/w460.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "跟",
+    "path": "vocab_slow/w460_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "跟",
+    "path": "vocab_native/w460_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "最近",
+    "path": "vocab/w461.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "最近",
+    "path": "vocab_slow/w461_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "最近",
+    "path": "vocab_native/w461_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "影响",
+    "path": "vocab/w462.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "影响",
+    "path": "vocab_slow/w462_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "影响",
+    "path": "vocab_native/w462_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "休息",
+    "path": "vocab/w463.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "休息",
+    "path": "vocab_slow/w463_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "休息",
+    "path": "vocab_native/w463_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
+    "text": "办法",
+    "path": "vocab/w464.mp3",
+    "type": "vocab",
+    "slow": false
+  },
+  {
+    "text": "办法",
+    "path": "vocab_slow/w464_slow.mp3",
+    "type": "vocab_slow",
+    "slow": true
+  },
+  {
+    "text": "办法",
+    "path": "vocab_native/w464_native.mp3",
+    "type": "vocab_native",
+    "slow": false
+  },
+  {
     "text": "水",
     "path": "vocab/w28.mp3",
     "type": "vocab",
@@ -8892,938 +10422,956 @@
     "slow": false
   },
   {
-    "text": "早上好",
+    "text": "早",
     "path": "phrase/p8.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "早上好",
+    "text": "早",
     "path": "phrase_slow/p8_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "早上好",
+    "text": "早",
     "path": "phrase_native/p8_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我叫马克西姆",
+    "text": "早上好",
     "path": "phrase/p9.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我叫马克西姆",
+    "text": "早上好",
     "path": "phrase_slow/p9_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我叫马克西姆",
+    "text": "早上好",
     "path": "phrase_native/p9_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我是法国人",
+    "text": "我叫马克西姆",
     "path": "phrase/p10.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我是法国人",
+    "text": "我叫马克西姆",
     "path": "phrase_slow/p10_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我是法国人",
+    "text": "我叫马克西姆",
     "path": "phrase_native/p10_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你叫什么名字？",
+    "text": "我是法国人",
     "path": "phrase/p11.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你叫什么名字？",
+    "text": "我是法国人",
     "path": "phrase_slow/p11_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你叫什么名字？",
+    "text": "我是法国人",
     "path": "phrase_native/p11_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "她是医生",
+    "text": "你叫什么名字？",
     "path": "phrase/p12.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "她是医生",
+    "text": "你叫什么名字？",
     "path": "phrase_slow/p12_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "她是医生",
+    "text": "你叫什么名字？",
     "path": "phrase_native/p12_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "他是老师",
+    "text": "她是医生",
     "path": "phrase/p13.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "他是老师",
+    "text": "她是医生",
     "path": "phrase_slow/p13_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "他是老师",
+    "text": "她是医生",
     "path": "phrase_native/p13_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "很高兴认识你",
+    "text": "他是老师",
     "path": "phrase/p14.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "很高兴认识你",
+    "text": "他是老师",
     "path": "phrase_slow/p14_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "很高兴认识你",
+    "text": "他是老师",
     "path": "phrase_native/p14_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我今年二十岁",
+    "text": "很高兴认识你",
     "path": "phrase/p15.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我今年二十岁",
+    "text": "很高兴认识你",
     "path": "phrase_slow/p15_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我今年二十岁",
+    "text": "很高兴认识你",
     "path": "phrase_native/p15_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我吃饭了",
+    "text": "我今年二十岁",
     "path": "phrase/p16.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我吃饭了",
+    "text": "我今年二十岁",
     "path": "phrase_slow/p16_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我吃饭了",
+    "text": "我今年二十岁",
     "path": "phrase_native/p16_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我饿了",
+    "text": "我吃饭了",
     "path": "phrase/p17.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我饿了",
+    "text": "我吃饭了",
     "path": "phrase_slow/p17_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我饿了",
+    "text": "我吃饭了",
     "path": "phrase_native/p17_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "她去学校了",
+    "text": "我饿了",
     "path": "phrase/p18.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "她去学校了",
+    "text": "我饿了",
     "path": "phrase_slow/p18_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "她去学校了",
+    "text": "我饿了",
     "path": "phrase_native/p18_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你喝水吗？",
+    "text": "她去学校了",
     "path": "phrase/p19.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你喝水吗？",
+    "text": "她去学校了",
     "path": "phrase_slow/p19_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你喝水吗？",
+    "text": "她去学校了",
     "path": "phrase_native/p19_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我喝水",
+    "text": "你喝水吗？",
     "path": "phrase/p20.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我喝水",
+    "text": "你喝水吗？",
     "path": "phrase_slow/p20_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我喝水",
+    "text": "你喝水吗？",
     "path": "phrase_native/p20_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "他睡觉了",
+    "text": "我喝水",
     "path": "phrase/p21.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "他睡觉了",
+    "text": "我喝水",
     "path": "phrase_slow/p21_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "他睡觉了",
+    "text": "我喝水",
     "path": "phrase_native/p21_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我回家了",
+    "text": "他睡觉了",
     "path": "phrase/p22.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我回家了",
+    "text": "他睡觉了",
     "path": "phrase_slow/p22_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我回家了",
+    "text": "他睡觉了",
     "path": "phrase_native/p22_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你是中国人吗？",
+    "text": "我回家了",
     "path": "phrase/p23.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你是中国人吗？",
+    "text": "我回家了",
     "path": "phrase_slow/p23_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你是中国人吗？",
+    "text": "我回家了",
     "path": "phrase_native/p23_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我会说中文",
+    "text": "你是中国人吗？",
     "path": "phrase/p24.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我会说中文",
+    "text": "你是中国人吗？",
     "path": "phrase_slow/p24_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我会说中文",
+    "text": "你是中国人吗？",
     "path": "phrase_native/p24_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你会说法语吗？",
+    "text": "我会说中文",
     "path": "phrase/p25.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你会说法语吗？",
+    "text": "我会说中文",
     "path": "phrase_slow/p25_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你会说法语吗？",
+    "text": "我会说中文",
     "path": "phrase_native/p25_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我说一点中文",
+    "text": "你会说法语吗？",
     "path": "phrase/p26.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我说一点中文",
+    "text": "你会说法语吗？",
     "path": "phrase_slow/p26_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我说一点中文",
+    "text": "你会说法语吗？",
     "path": "phrase_native/p26_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "他是日本人",
+    "text": "我说一点中文",
     "path": "phrase/p27.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "他是日本人",
+    "text": "我说一点中文",
     "path": "phrase_slow/p27_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "他是日本人",
+    "text": "我说一点中文",
     "path": "phrase_native/p27_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我在学中文",
+    "text": "他是日本人",
     "path": "phrase/p28.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我在学中文",
+    "text": "他是日本人",
     "path": "phrase_slow/p28_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我在学中文",
+    "text": "他是日本人",
     "path": "phrase_native/p28_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我有一本书",
+    "text": "我在学中文",
     "path": "phrase/p29.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我有一本书",
+    "text": "我在学中文",
     "path": "phrase_slow/p29_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我有一本书",
+    "text": "我在学中文",
     "path": "phrase_native/p29_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我没有钱",
+    "text": "我有一本书",
     "path": "phrase/p30.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我没有钱",
+    "text": "我有一本书",
     "path": "phrase_slow/p30_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我没有钱",
+    "text": "我有一本书",
     "path": "phrase_native/p30_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你想吃什么？",
+    "text": "我没有钱",
     "path": "phrase/p31.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你想吃什么？",
+    "text": "我没有钱",
     "path": "phrase_slow/p31_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你想吃什么？",
+    "text": "我没有钱",
     "path": "phrase_native/p31_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我想喝茶",
+    "text": "你想吃什么？",
     "path": "phrase/p32.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我想喝茶",
+    "text": "你想吃什么？",
     "path": "phrase_slow/p32_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我想喝茶",
+    "text": "你想吃什么？",
     "path": "phrase_native/p32_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你有车吗？",
+    "text": "我想喝茶",
     "path": "phrase/p33.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你有车吗？",
+    "text": "我想喝茶",
     "path": "phrase_slow/p33_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你有车吗？",
+    "text": "我想喝茶",
     "path": "phrase_native/p33_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我有两个姐姐",
+    "text": "你有车吗？",
     "path": "phrase/p34.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我有两个姐姐",
+    "text": "你有车吗？",
     "path": "phrase_slow/p34_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我有两个姐姐",
+    "text": "你有车吗？",
     "path": "phrase_native/p34_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我想去中国",
+    "text": "我有两个姐姐",
     "path": "phrase/p35.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我想去中国",
+    "text": "我有两个姐姐",
     "path": "phrase_slow/p35_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我想去中国",
+    "text": "我有两个姐姐",
     "path": "phrase_native/p35_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我要去北京",
+    "text": "我想去中国",
     "path": "phrase/p36.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我要去北京",
+    "text": "我想去中国",
     "path": "phrase_slow/p36_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我要去北京",
+    "text": "我想去中国",
     "path": "phrase_native/p36_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "飞机几点到？",
+    "text": "我要去北京",
     "path": "phrase/p37.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "飞机几点到？",
+    "text": "我要去北京",
     "path": "phrase_slow/p37_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "飞机几点到？",
+    "text": "我要去北京",
     "path": "phrase_native/p37_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我在等出租车",
+    "text": "飞机几点到？",
     "path": "phrase/p38.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我在等出租车",
+    "text": "飞机几点到？",
     "path": "phrase_slow/p38_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我在等出租车",
+    "text": "飞机几点到？",
     "path": "phrase_native/p38_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "这个多少钱？",
+    "text": "我在等出租车",
     "path": "phrase/p39.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "这个多少钱？",
+    "text": "我在等出租车",
     "path": "phrase_slow/p39_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "这个多少钱？",
+    "text": "我在等出租车",
     "path": "phrase_native/p39_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "有没有房间？",
+    "text": "这个多少钱？",
     "path": "phrase/p40.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "有没有房间？",
+    "text": "这个多少钱？",
     "path": "phrase_slow/p40_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "有没有房间？",
+    "text": "这个多少钱？",
     "path": "phrase_native/p40_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "我迷路了",
+    "text": "有没有房间？",
     "path": "phrase/p41.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "我迷路了",
+    "text": "有没有房间？",
     "path": "phrase_slow/p41_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "我迷路了",
+    "text": "有没有房间？",
     "path": "phrase_native/p41_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "请帮我一下",
+    "text": "我迷路了",
     "path": "phrase/p42.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "请帮我一下",
+    "text": "我迷路了",
     "path": "phrase_slow/p42_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "请帮我一下",
+    "text": "我迷路了",
     "path": "phrase_native/p42_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "他比我高",
+    "text": "请帮我一下",
     "path": "phrase/p43.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "他比我高",
+    "text": "请帮我一下",
     "path": "phrase_slow/p43_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "他比我高",
+    "text": "请帮我一下",
     "path": "phrase_native/p43_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "中文比英文难",
+    "text": "他比我高",
     "path": "phrase/p44.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "中文比英文难",
+    "text": "他比我高",
     "path": "phrase_slow/p44_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "中文比英文难",
+    "text": "他比我高",
     "path": "phrase_native/p44_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你和我一样高",
+    "text": "中文比英文难",
     "path": "phrase/p45.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你和我一样高",
+    "text": "中文比英文难",
     "path": "phrase_slow/p45_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你和我一样高",
+    "text": "中文比英文难",
     "path": "phrase_native/p45_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "这个更好",
+    "text": "你和我一样高",
     "path": "phrase/p46.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "这个更好",
+    "text": "你和我一样高",
     "path": "phrase_slow/p46_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "这个更好",
+    "text": "你和我一样高",
     "path": "phrase_native/p46_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "她跑得比我快",
+    "text": "这个更好",
     "path": "phrase/p47.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "她跑得比我快",
+    "text": "这个更好",
     "path": "phrase_slow/p47_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "她跑得比我快",
+    "text": "这个更好",
     "path": "phrase_native/p47_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "今天比昨天热",
+    "text": "她跑得比我快",
     "path": "phrase/p48.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "今天比昨天热",
+    "text": "她跑得比我快",
     "path": "phrase_slow/p48_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "今天比昨天热",
+    "text": "她跑得比我快",
     "path": "phrase_native/p48_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "这是我的书",
+    "text": "今天比昨天热",
     "path": "phrase/p49.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "这是我的书",
+    "text": "今天比昨天热",
     "path": "phrase_slow/p49_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "这是我的书",
+    "text": "今天比昨天热",
     "path": "phrase_native/p49_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "她说得很快",
+    "text": "这是我的书",
     "path": "phrase/p50.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "她说得很快",
+    "text": "这是我的书",
     "path": "phrase_slow/p50_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "她说得很快",
+    "text": "这是我的书",
     "path": "phrase_native/p50_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "他高兴地笑了",
+    "text": "她说得很快",
     "path": "phrase/p51.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "他高兴地笑了",
+    "text": "她说得很快",
     "path": "phrase_slow/p51_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "他高兴地笑了",
+    "text": "她说得很快",
     "path": "phrase_native/p51_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你说得对",
+    "text": "他高兴地笑了",
     "path": "phrase/p52.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你说得对",
+    "text": "他高兴地笑了",
     "path": "phrase_slow/p52_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你说得对",
+    "text": "他高兴地笑了",
     "path": "phrase_native/p52_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "红色的车",
+    "text": "你说得对",
     "path": "phrase/p53.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "红色的车",
+    "text": "你说得对",
     "path": "phrase_slow/p53_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "红色的车",
+    "text": "你说得对",
     "path": "phrase_native/p53_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "学中文要学得好",
+    "text": "红色的车",
     "path": "phrase/p54.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "学中文要学得好",
+    "text": "红色的车",
     "path": "phrase_slow/p54_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "学中文要学得好",
+    "text": "红色的车",
     "path": "phrase_native/p54_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "如果下雨，我就不去",
+    "text": "学中文要学得好",
     "path": "phrase/p55.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "如果下雨，我就不去",
+    "text": "学中文要学得好",
     "path": "phrase_slow/p55_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "如果下雨，我就不去",
+    "text": "学中文要学得好",
     "path": "phrase_native/p55_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "如果你来，我就很高兴",
+    "text": "如果下雨，我就不去",
     "path": "phrase/p56.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "如果你来，我就很高兴",
+    "text": "如果下雨，我就不去",
     "path": "phrase_slow/p56_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "如果你来，我就很高兴",
+    "text": "如果下雨，我就不去",
     "path": "phrase_native/p56_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "你有时间的话，我们一起吃饭",
+    "text": "如果你来，我就很高兴",
     "path": "phrase/p57.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "你有时间的话，我们一起吃饭",
+    "text": "如果你来，我就很高兴",
     "path": "phrase_slow/p57_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "你有时间的话，我们一起吃饭",
+    "text": "如果你来，我就很高兴",
     "path": "phrase_native/p57_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "就算很难，我也要学",
+    "text": "你有时间的话，我们一起吃饭",
     "path": "phrase/p58.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "就算很难，我也要学",
+    "text": "你有时间的话，我们一起吃饭",
     "path": "phrase_slow/p58_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "就算很难，我也要学",
+    "text": "你有时间的话，我们一起吃饭",
     "path": "phrase_native/p58_native.mp3",
     "type": "phrase_native",
     "slow": false
   },
   {
-    "text": "要不是你帮我，我做不完",
+    "text": "就算很难，我也要学",
     "path": "phrase/p59.mp3",
     "type": "phrase",
     "slow": false
   },
   {
-    "text": "要不是你帮我，我做不完",
+    "text": "就算很难，我也要学",
     "path": "phrase_slow/p59_slow.mp3",
     "type": "phrase_slow",
     "slow": true
   },
   {
-    "text": "要不是你帮我，我做不完",
+    "text": "就算很难，我也要学",
     "path": "phrase_native/p59_native.mp3",
+    "type": "phrase_native",
+    "slow": false
+  },
+  {
+    "text": "要不是你帮我，我做不完",
+    "path": "phrase/p60.mp3",
+    "type": "phrase",
+    "slow": false
+  },
+  {
+    "text": "要不是你帮我，我做不完",
+    "path": "phrase_slow/p60_slow.mp3",
+    "type": "phrase_slow",
+    "slow": true
+  },
+  {
+    "text": "要不是你帮我，我做不完",
+    "path": "phrase_native/p60_native.mp3",
     "type": "phrase_native",
     "slow": false
   },

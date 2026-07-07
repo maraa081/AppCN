@@ -91,6 +91,27 @@ _(À compléter avec les résultats des audits.)_
 - w248 左边 (zuǒ biān) / w249 右边 (yòu biān) : note structure 边 vs japonais sans suffixe
 - w258 上班 (shàng bān) / w259 下班 (xià bān) : notes comparaison JP 出勤/退勤
 
+**Remplacements Point 1 (mots trop spécifiques) :**
+- w94 再见明天见 → 明天见 (à demain, forme plus naturelle)
+- w149 可乐 conservé + w380 汽水 ajouté comme synonyme HSK
+- w179 公共汽车 conservé + w381 公交车 ajouté comme synonyme oral plus court
+
+**Ajouts HSK 1 (Point 2) :**
+- +50 mots HSK1 ajoutés (w382-w431) : pronoms, verbes être/avoir, particules, mots interrogatifs, classificateurs, etc.
+- Couverture HSK1 passée de 62% à 95%
+
+**Ajouts HSK 2-3 (Point 3) :**
+- +33 mots HSK 2-3 ajoutés (w432-w464) : verbes de mouvement, adverbes, structures 把/被, etc.
+- w451 把 et w452 被 : note renvoyant vers le module Grammaire
+
+**Marquage HSK (Point 4) :**
+- 131 mots hors-HSK marqués avec `hskLevel: 'hors-HSK'` dans data.js
+- Badge visible dans l'interface pour signaler le niveau HSK
+
+**Audio :**
+- Générateur : 57 nouveaux fichiers audio générés, 1911 existants préservés
+- Total : 1968 fichiers audio dans public/audio/
+
 **Phrases — Notes de registre :**
 - Ajout de 早 (zǎo) = "Salut (le matin, oral)" dans les salutations
 - 早上好 (zǎo shang hǎo) marqué "plus formel"
@@ -99,6 +120,14 @@ _(À compléter avec les résultats des audits.)_
 - Leçon négation (不/没) : option 4 corrigée ("我没有吃饭了" → "我没有吃饭")
 
 LESSONS.md contient l'historique complet des corrections techniques.
+
+## 1.5 Conventions HSK
+
+- hskLevel est un champ optionnel dans les données vocabulaire
+- Valeurs possibles : 'hors-HSK' (ni HSK1, ni HSK2, ni HSK3)
+- Si le champ est absent, le mot est considéré comme faisant partie d'un niveau HSK (1, 2 ou 3)
+- Les mots HSK 1-3 ne sont pas marqués (silence = dans HSK)
+- Ne pas remplacer un mot hors-HSK uniquement parce qu'il est hors-HSK. Le critère est l'utilité orale réelle.
 
 ---
 

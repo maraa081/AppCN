@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/CN/',
   preview: {
-    allowedHosts: ['guaiguai2.duckdns.org'],
+    host: '0.0.0.0',
+    allowedHosts: true,
   },
 })

@@ -82,7 +82,7 @@ Règle simple : 不 pour les actions habituelles/futures, 没 pour l'accompli/po
             id: 'neg1',
             type: 'qcm',
             question: 'Quelle négation pour "Je n\'ai pas mangé" ?',
-            options: ['我不吃饭', '我没吃饭', '我无不吃饭', '我没有吃饭了'],
+            options: ['我不吃饭', '我没吃饭', '我无不吃饭', '我没有吃饭'],
             correctIndex: 1,
             explanation: '没 + verbe = action non accomplie. 我没吃饭 = "Je n\'ai pas mangé".',
           },

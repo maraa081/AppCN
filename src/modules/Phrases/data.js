@@ -25,7 +25,8 @@ Pour poser une question oui/non, on ajoute 吗 (ma) à la fin d'une phrase décl
           { chinese: '再见', pinyin: 'zài jiàn', french: 'Au revoir' },
           { chinese: '你是学生吗？', pinyin: 'nǐ shì xuéshēng ma', french: 'Es-tu étudiant ?' },
           { chinese: '我是学生', pinyin: 'wǒ shì xuéshēng', french: 'Je suis étudiant' },
-          { chinese: '早上好', pinyin: 'zǎo shang hǎo', french: 'Bonjour (le matin)' },
+          { chinese: '早', pinyin: 'zǎo', french: 'Salut (le matin, oral)' },
+          { chinese: '早上好', pinyin: 'zǎo shang hǎo', french: 'Bonjour (le matin, plus formel)' },
         ],
       },
       {

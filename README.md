@@ -11,8 +11,8 @@ Application web d'apprentissage du chinois mandarin, conçue pour les francophon
 | Fonctionnalité | Statut |
 |---|---|
 | 4 modules (Phrases, Grammaire, Prononciation, Vocabulaire) | ✅ |
-| +375 mots de vocabulaire avec audio | ✅ |
-| Audio généré par **edge-tts** (voix naturelle) | ✅ |
+| **375 mots** de vocabulaire avec audio | ✅ |
+| Audio **edge-tts** (voix neuronale Microsoft, MP3 pré-générés) | ✅ |
 | 3 vitesses audio : -40% / -20% / normale | ✅ |
 | **SRS SM-2** (Spaced Repetition System) pour les flashcards | ✅ |
 | Segmentation mot par mot dans les phrases | ✅ |
@@ -20,9 +20,8 @@ Application web d'apprentissage du chinois mandarin, conçue pour les francophon
 | Exercices de grammaire avec QCM | ✅ |
 | Prononciation : pinyin + tons + reconnaissance auditive | ✅ |
 | Progression sauvegardée automatiquement (localStorage) | ✅ |
-| Fonctionne hors ligne (sauf synthèse vocale) | ✅ |
+| **Fonctionne hors ligne** (audio + contenu en local) | ✅ |
 | LESSONS.md : 120 leçons détaillées | ✅ |
-| Synthèse vocale navigateur (fallback Web Speech API) | ✅ |
 
 ## Modules
 
@@ -31,7 +30,15 @@ Application web d'apprentissage du chinois mandarin, conçue pour les francophon
 | 💬 **Phrases** | Phrases thématiques avec traduction, pinyin, grammaire et segmentation mot à mot |
 | 📐 **Grammaire** | Leçons structurées avec exercices QCM, comparaisons japonais |
 | 🔊 **Prononciation** | Syllabes pinyin, tons, voyelles/consonnes, exercices d'écoute |
-| 📚 **Vocabulaire** | ~375 mots avec flashcards SRS SM-2, notes comparatives, audio 3 vitesses |
+| 📚 **Vocabulaire** | 375 mots avec flashcards SRS SM-2, notes comparatives, audio 3 vitesses, 19 thèmes |
+
+## Prérequis
+
+- **Node.js 18+** (testé avec Node 22)
+- **npm** (inclus avec Node.js)
+- **Python 3** (pour la génération audio edge-tts)
+- **edge-tts** : `pip install edge-tts` (pour régénérer l'audio)
+- Un navigateur moderne (Chrome, Firefox, Edge)
 
 ## Déploiement
 
@@ -68,19 +75,18 @@ L'app tourne en continu via Vite preview, relancée par `start.sh`. Le Caddyfile
 
 ## Audio
 
-Deux systèmes audio co-existent :
+L'audio est généré hors-ligne avec **edge-tts** (voix neuronale Microsoft), puis stocké en fichiers MP3/OPUS dans le projet. **Aucune connexion ni API externe nécessaire au runtime** — tout est lu depuis les fichiers locaux.
 
-1. **edge-tts** (principal) — généré avec [Microsoft Edge TTS](https://github.com/rany2/edge-tts), voix naturelle, stocké dans `dist/audio/`
-   - 3 versions : normale, native, slow
-   - Fichiers compressés (OPUS) pour chargement rapide
-
-2. **Web Speech API** (fallback) — utilisé quand l'audio local n'est pas disponible, voix système
+- ~1696 fichiers audio (mots, phrases, paires, versions natives et ralenties)
+- 3 taux de lecture : normale / -20% / -40% (pré-générés, pas de pitch artefact)
 
 ### Régénérer l'audio
 
 ```bash
 pip install edge-tts
-npm run generate-audio
+npm run generate-audio      # utilise scripts/generate-audio.py
+# ou directement :
+node scripts/generate-audio.mjs
 ```
 
 ## Contrôle audio
@@ -110,17 +116,22 @@ AppCN/
 │   │   ├── Pronunciation/          # Module Prononciation
 │   │   └── Vocabulary/             # Module Vocabulaire (SRS)
 │   └── utils/
-│       ├── audio.js                # Gestionnaire audio edge-tts + Web Speech
+│       ├── audio.js                # Lecteur MP3 pré-générés + lookup manifest
 │       ├── segmenter.js            # Segmentation mot par mot (Intl.Segmenter)
-│       ├── storage.js              # Sauvegarde localStorage
-│       └── tts.js                  # Synthèse vocale fallback
+│       ├── storage.js              # Sauvegarde localStorage (progression + SRS)
+│       └── tts.js                  # Synthèse vocale fallback (Web Speech API)
 ├── scripts/
-│   └── generate-audio.py           # Script edge-tts
+│   ├── generate-audio.py           # Script edge-tts (voix Microsoft neuronale)
+│   └── generate-audio.mjs          # Version Node.js du générateur audio
+├── public/
+│   ├── audio/                      # ~1696 fichiers MP3/OPUS pré-générés
+│   └── favicon.svg                 # Icône 🀄
 ├── dist/
-│   ├── assets/                     # Build JS/CSS
-│   └── audio/                      # Fichiers audio générés
+│   ├── assets/                     # Build JS/CSS (production)
+│   └── audio/                      # Copie des fichiers audio pour le déploiement
 ├── LESSONS.md                      # 120 leçons détaillées
 ├── index.html
+├── start.sh                        # Script de build + lancement
 ├── vite.config.js
 ├── package.json
 └── README.md
@@ -135,18 +146,31 @@ Chaque module a son fichier `data.js` :
 - `src/modules/Pronunciation/data.js` → syllabes/exercices
 - `src/modules/Vocabulary/data.js` → mots, notes comparatives
 
-Les données sont au format JS. La structure des mots de vocabulaire utilise un ID unique (`wid`) pour le mapping audio :
+Les données sont au format JS. Les mots de vocabulaire utilisent ce format :
 
 ```js
 {
-  wid: 'v001',
+  id: 'saluer-1',
   hanzi: '你好',
   pinyin: 'nǐ hǎo',
-  meaning: 'Bonjour',
-  jp_note: '你 (nǐ) = あなた, 好 (hǎo) = よい',
-  // ...
+  french: 'Bonjour',
+  theme: 'salutations',
+  level: 'debutant',
+  jpKanji: '你好',
+  jpNote: '你 = あなた, 好 = よい',
+  example: '你好，我叫…'
 }
 ```
+
+## Génération audio pour le nouveau contenu
+
+Après avoir ajouté des mots ou des phrases :
+
+```bash
+npm run generate-audio
+```
+
+Cela génère les fichiers MP3 pour tout le contenu manquant via edge-tts et met à jour `public/audio/manifest.json`.
 
 ## Pour les contributeurs
 

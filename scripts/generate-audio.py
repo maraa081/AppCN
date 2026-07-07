@@ -116,6 +116,35 @@ for i, pinyin in enumerate(PAIRS):
         CONTENT.append(("pair" + sfx, f"pair_{i}{sfx}.mp3", pinyin, VOICE_MALE, rate))
 
 # --- 5. Extra (phrases avancées) ---
+# --- 5.5 Grammaire — exemples (voix féminine) ---
+GRAMMAR_EXAMPLES = [
+    ("我看书", "grammar_ex_1"),
+    ("她做饭", "grammar_ex_2"),
+    ("我喜欢猫", "grammar_ex_3"),
+    ("我不吃辣", "grammar_ex_4"),
+    ("我不吃猪肉", "grammar_ex_5"),
+    ("他没来上课", "grammar_ex_6"),
+    ("我没有车", "grammar_ex_7"),
+    ("这个不好吃", "grammar_ex_8"),
+    ("我不去", "grammar_ex_9"),
+    ("你去不去？", "grammar_ex_10"),
+    ("这是什么？", "grammar_ex_11"),
+    ("他是谁？", "grammar_ex_12"),
+    ("你在哪里？", "grammar_ex_13"),
+    ("为什么？", "grammar_ex_14"),
+    ("一个人", "grammar_ex_15"),
+    ("两只猫", "grammar_ex_16"),
+    ("三本书", "grammar_ex_17"),
+    ("一杯水", "grammar_ex_18"),
+    ("一张桌子", "grammar_ex_19"),
+    ("五条鱼", "grammar_ex_20"),
+]
+
+for text, gid in GRAMMAR_EXAMPLES:
+    for sfx, rate in RATES:
+        CONTENT.append(("grammar" + sfx, f"{gid}{sfx}.mp3", text, VOICE_FEMALE, rate))
+
+
 EXTRA = [
     "我喜欢学习中文", "请把门打开", "我把书放在桌上了",
     "如果下雨我就不去", "你的作业做完了吗？",

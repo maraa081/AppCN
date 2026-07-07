@@ -11628,6 +11628,366 @@
     "slow": false
   },
   {
+    "text": "我看书",
+    "path": "grammar/grammar_ex_1.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "我看书",
+    "path": "grammar_slow/grammar_ex_1_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "我看书",
+    "path": "grammar_native/grammar_ex_1_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "她做饭",
+    "path": "grammar/grammar_ex_2.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "她做饭",
+    "path": "grammar_slow/grammar_ex_2_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "她做饭",
+    "path": "grammar_native/grammar_ex_2_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "我喜欢猫",
+    "path": "grammar/grammar_ex_3.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "我喜欢猫",
+    "path": "grammar_slow/grammar_ex_3_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "我喜欢猫",
+    "path": "grammar_native/grammar_ex_3_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "我不吃辣",
+    "path": "grammar/grammar_ex_4.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "我不吃辣",
+    "path": "grammar_slow/grammar_ex_4_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "我不吃辣",
+    "path": "grammar_native/grammar_ex_4_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "我不吃猪肉",
+    "path": "grammar/grammar_ex_5.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "我不吃猪肉",
+    "path": "grammar_slow/grammar_ex_5_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "我不吃猪肉",
+    "path": "grammar_native/grammar_ex_5_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "他没来上课",
+    "path": "grammar/grammar_ex_6.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "他没来上课",
+    "path": "grammar_slow/grammar_ex_6_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "他没来上课",
+    "path": "grammar_native/grammar_ex_6_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "我没有车",
+    "path": "grammar/grammar_ex_7.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "我没有车",
+    "path": "grammar_slow/grammar_ex_7_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "我没有车",
+    "path": "grammar_native/grammar_ex_7_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "这个不好吃",
+    "path": "grammar/grammar_ex_8.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "这个不好吃",
+    "path": "grammar_slow/grammar_ex_8_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "这个不好吃",
+    "path": "grammar_native/grammar_ex_8_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "我不去",
+    "path": "grammar/grammar_ex_9.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "我不去",
+    "path": "grammar_slow/grammar_ex_9_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "我不去",
+    "path": "grammar_native/grammar_ex_9_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "你去不去？",
+    "path": "grammar/grammar_ex_10.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "你去不去？",
+    "path": "grammar_slow/grammar_ex_10_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "你去不去？",
+    "path": "grammar_native/grammar_ex_10_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "这是什么？",
+    "path": "grammar/grammar_ex_11.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "这是什么？",
+    "path": "grammar_slow/grammar_ex_11_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "这是什么？",
+    "path": "grammar_native/grammar_ex_11_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "他是谁？",
+    "path": "grammar/grammar_ex_12.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "他是谁？",
+    "path": "grammar_slow/grammar_ex_12_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "他是谁？",
+    "path": "grammar_native/grammar_ex_12_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "你在哪里？",
+    "path": "grammar/grammar_ex_13.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "你在哪里？",
+    "path": "grammar_slow/grammar_ex_13_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "你在哪里？",
+    "path": "grammar_native/grammar_ex_13_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "为什么？",
+    "path": "grammar/grammar_ex_14.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "为什么？",
+    "path": "grammar_slow/grammar_ex_14_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "为什么？",
+    "path": "grammar_native/grammar_ex_14_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "一个人",
+    "path": "grammar/grammar_ex_15.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "一个人",
+    "path": "grammar_slow/grammar_ex_15_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "一个人",
+    "path": "grammar_native/grammar_ex_15_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "两只猫",
+    "path": "grammar/grammar_ex_16.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "两只猫",
+    "path": "grammar_slow/grammar_ex_16_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "两只猫",
+    "path": "grammar_native/grammar_ex_16_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "三本书",
+    "path": "grammar/grammar_ex_17.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "三本书",
+    "path": "grammar_slow/grammar_ex_17_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "三本书",
+    "path": "grammar_native/grammar_ex_17_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "一杯水",
+    "path": "grammar/grammar_ex_18.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "一杯水",
+    "path": "grammar_slow/grammar_ex_18_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "一杯水",
+    "path": "grammar_native/grammar_ex_18_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "一张桌子",
+    "path": "grammar/grammar_ex_19.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "一张桌子",
+    "path": "grammar_slow/grammar_ex_19_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "一张桌子",
+    "path": "grammar_native/grammar_ex_19_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
+    "text": "五条鱼",
+    "path": "grammar/grammar_ex_20.mp3",
+    "type": "grammar",
+    "slow": false
+  },
+  {
+    "text": "五条鱼",
+    "path": "grammar_slow/grammar_ex_20_slow.mp3",
+    "type": "grammar_slow",
+    "slow": true
+  },
+  {
+    "text": "五条鱼",
+    "path": "grammar_native/grammar_ex_20_native.mp3",
+    "type": "grammar_native",
+    "slow": false
+  },
+  {
     "text": "我喜欢学习中文",
     "path": "extra/e1.mp3",
     "type": "extra",

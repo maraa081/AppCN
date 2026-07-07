@@ -131,6 +131,40 @@ LESSONS.md contient l'historique complet des corrections techniques.
 
 ---
 
+
+## 1.6 Règles strictes — Gestion audio
+
+### Principe fondamental
+
+Ne JAMAIS lancer une régénération complète de tous les fichiers audio — toujours vérifier public/audio/manifest.json en premier et générer uniquement les fichiers absents du manifest.
+
+### Règles
+
+1. **Diff avant génération** — Avant toute génération audio, faire un diff entre les éléments référencés dans les modules (data.js, etc.) et les entrées du manifest. Seul ce diff est à générer.
+
+2. **Fichiers immuables** — Les fichiers audio existants sont immuables : ne jamais écraser, renommer ou supprimer un fichier MP3 déjà généré sauf demande explicite.
+
+3. **Convention de nommage** — Ne jamais dévier de la convention exacte :
+   - `{type}/{id}{suffixe}.mp3`
+   - `type` = `vocab`, `phrase`, `syllable`, `pair`, `extra`, `grammar`
+   - `suffixe` = `""` (normal), `"_native"` (voix native), `"_slow"` (ralenti -30%)
+   - `id` = identifiant unique de l'élément (w1, p1, grammar_ex_1, etc.)
+   - Les dossiers sont dans `public/audio/`
+   - Un fichier mal nommé ne sera jamais trouvé et sera régénéré inutilement en boucle.
+
+4. **Manifest synchronisé** — Après chaque génération : mettre à jour manifest.json immédiatement, puis commit. Ne jamais laisser le manifest désynchronisé avec les fichiers réels.
+
+5. **Débogage** — Si un fichier audio semble manquant mais que le manifest dit qu'il existe : vérifier d'abord une erreur de nommage ou de chemin avant de régénérer.
+
+### Nouveau contenu audio
+
+Quand un nouveau mot/phrase/exemple est ajouté dans data.js, la procédure est :
+
+1. Ajouter l'élément dans le script `scripts/generate-audio.py` si c'est une nouvelle catégorie
+2. Lancer `npm run generate-audio` (génère uniquement les fichiers manquants)
+3. Vérifier que le manifest.json est mis à jour
+4. Commit le tout ensemble (data.js + audio + manifest)
+
 ## 1.4 Sandhi tonal — Règles et comportement edge-tts
 
 ### Règles de sandhi à connaître

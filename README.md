@@ -12,7 +12,7 @@ Application web d'apprentissage du chinois mandarin, conçue pour les francophon
 |---|---|
 | 4 modules (Phrases, Grammaire, Prononciation, Vocabulaire) | ✅ |
 | **375 mots** de vocabulaire avec audio | ✅ |
-| Audio **edge-tts** (voix neuronale Microsoft, MP3 pré-générés) | ✅ |
+| Audio **edge-tts** (voix neuronale Microsoft zh-CN-XiaoxiaoNeural / zh-CN-YunxiNeural, MP3 pré-générés en local) | ✅ |
 | 3 vitesses audio : -40% / -20% / normale | ✅ |
 | **SRS SM-2** (Spaced Repetition System) pour les flashcards | ✅ |
 | Segmentation mot par mot dans les phrases | ✅ |
@@ -20,7 +20,7 @@ Application web d'apprentissage du chinois mandarin, conçue pour les francophon
 | Exercices de grammaire avec QCM | ✅ |
 | Prononciation : pinyin + tons + reconnaissance auditive | ✅ |
 | Progression sauvegardée automatiquement (localStorage) | ✅ |
-| **Fonctionne hors ligne** (audio + contenu en local) | ✅ |
+| **Fonctionne entièrement hors ligne**, y compris l'audio (fichiers MP3 générés à l'avance via edge-tts) | ✅ |
 | LESSONS.md : 120 leçons détaillées | ✅ |
 
 ## Modules
@@ -36,7 +36,7 @@ Application web d'apprentissage du chinois mandarin, conçue pour les francophon
 
 - **Node.js 18+** (testé avec Node 22)
 - **npm** (inclus avec Node.js)
-- **Python 3** (pour la génération audio edge-tts)
+- **Python 3.8+** (pour la génération audio edge-tts)
 - **edge-tts** : `pip install edge-tts` (pour régénérer l'audio)
 - Un navigateur moderne (Chrome, Firefox, Edge)
 
@@ -119,7 +119,7 @@ AppCN/
 │       ├── audio.js                # Lecteur MP3 pré-générés + lookup manifest
 │       ├── segmenter.js            # Segmentation mot par mot (Intl.Segmenter)
 │       ├── storage.js              # Sauvegarde localStorage (progression + SRS)
-│       └── tts.js                  # Synthèse vocale fallback (Web Speech API)
+│       └── tts.js                  # Lecteur de fichiers MP3 locaux
 ├── scripts/
 │   ├── generate-audio.py           # Script edge-tts (voix Microsoft neuronale)
 │   └── generate-audio.mjs          # Version Node.js du générateur audio

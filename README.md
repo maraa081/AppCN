@@ -2,76 +2,124 @@
 
 Application web d'apprentissage du chinois mandarin, conçue pour les francophones connaissant déjà le japonais.
 
-**Fonctionnalités :**
-- 4 modules indépendants avec niveaux Débutant / Intermédiaire / Avancé
-- Notes comparatives japonais → chinois (hanzi communs, différences grammaticales)
-- Synthèse vocale (Web Speech API, zh-CN)
-- Progression sauvegardée automatiquement (localStorage)
-- Flashcards avec répétition espacée
-- Fonctionne hors ligne (sauf la synthèse vocale qui nécessite le navigateur)
+**Accès en ligne :** https://guaiguai2.duckdns.org/CN/
+
+---
+
+## Fonctionnalités
+
+| Fonctionnalité | Statut |
+|---|---|
+| 4 modules (Phrases, Grammaire, Prononciation, Vocabulaire) | ✅ |
+| +375 mots de vocabulaire avec audio | ✅ |
+| Audio généré par **edge-tts** (voix naturelle) | ✅ |
+| 3 vitesses audio : -40% / -20% / normale | ✅ |
+| **SRS SM-2** (Spaced Repetition System) pour les flashcards | ✅ |
+| Segmentation mot par mot dans les phrases | ✅ |
+| Notes comparatives **japonais → chinois** (hanzi communs) | ✅ |
+| Exercices de grammaire avec QCM | ✅ |
+| Prononciation : pinyin + tons + reconnaissance auditive | ✅ |
+| Progression sauvegardée automatiquement (localStorage) | ✅ |
+| Fonctionne hors ligne (sauf synthèse vocale) | ✅ |
+| LESSONS.md : 120 leçons détaillées | ✅ |
+| Synthèse vocale navigateur (fallback Web Speech API) | ✅ |
 
 ## Modules
 
-| Module | Description |
-|--------|-------------|
-| 💬 **Phrases** | Phrases classées par thème avec traduction, pinyin et explications grammaticales |
-| 📐 **Grammaire** | Leçons structurées avec exercices QCM et comparaisons japonais |
-| 🔊 **Prononciation** | Syllabes pinyin, tons et exercices de reconnaissance auditive |
-| 📚 **Vocabulaire** | 87 mots avec flashcards, notes comparatives et répétition espacée |
+| Module | Description contenu |
+|---|---|
+| 💬 **Phrases** | Phrases thématiques avec traduction, pinyin, grammaire et segmentation mot à mot |
+| 📐 **Grammaire** | Leçons structurées avec exercices QCM, comparaisons japonais |
+| 🔊 **Prononciation** | Syllabes pinyin, tons, voyelles/consonnes, exercices d'écoute |
+| 📚 **Vocabulaire** | ~375 mots avec flashcards SRS SM-2, notes comparatives, audio 3 vitesses |
 
-## Prérequis
+## Déploiement
 
-- **Node.js 18+** (testé avec Node 22)
-- **npm** (inclus avec Node.js)
-- Un navigateur moderne (Chrome, Firefox, Edge)
+L'app est accessible en ligne via Caddy + DuckDNS :
 
-## Installation et lancement
+```
+https://guaiguai2.duckdns.org/CN/
+  ↳ Caddy reverse proxy → localhost:5173/CN/
+  ↳ Vite preview (build production)
+```
+
+### Lancer en local
 
 ```bash
-# 1. Cloner le dépôt
-git clone https://github.com/maraa081/AppCN.git
-cd AppCN
-
-# 2. Installer les dépendances
-npm install
-
-# 3. Lancer en développement
+# Dev
 npm run dev
+
+# Production
+npm run build
+npm run preview -- --host 0.0.0.0
 ```
 
-Ouvre ensuite l'URL affichée (généralement http://localhost:5173).
-
-### Mode production
+### Script de démarrage
 
 ```bash
-npm run build
-npm run preview
+./start.sh              # Build + preview sur localhost:5173
+./start.sh --host       # Build + preview accessible réseau local
+./start.sh --host 8080  # Build + preview sur port personnalisé
 ```
+
+### Sur le serveur
+
+L'app tourne en continu via Vite preview, relancée par `start.sh`. Le Caddyfile sur Windows route `/CN/` vers `172.31.240.191:5173`.
+
+## Audio
+
+Deux systèmes audio co-existent :
+
+1. **edge-tts** (principal) — généré avec [Microsoft Edge TTS](https://github.com/rany2/edge-tts), voix naturelle, stocké dans `dist/audio/`
+   - 3 versions : normale, native, slow
+   - Fichiers compressés (OPUS) pour chargement rapide
+
+2. **Web Speech API** (fallback) — utilisé quand l'audio local n'est pas disponible, voix système
+
+### Régénérer l'audio
+
+```bash
+pip install edge-tts
+npm run generate-audio
+```
+
+## Contrôle audio
+
+Chaque fichier audio dispose :
+- 🎧 Bouton écouter (lecture unique)
+- 🔁 Boucle (répétition continue)
+- 🐢🐢🐢 Sélecteur de vitesse : -40% / -20% / normale (ralentissement natif via `playbackRate`)
+- Segmentation mot par mot dans les phrases
 
 ## Structure du projet
 
 ```
 AppCN/
 ├── src/
-│   ├── main.jsx              # Point d'entrée React
-│   ├── App.jsx               # Composant principal + menu
-│   ├── App.css               # Styles complets
+│   ├── main.jsx                    # Point d'entrée React
+│   ├── App.jsx                     # Menu principal 4 modules
+│   ├── App.css                     # Styles complets (dark glassmorphism)
 │   ├── components/
-│   │   ├── AudioButton.jsx   # Bouton de synthèse vocale
-│   │   ├── ModuleHeader.jsx  # Entête de module
-│   │   ├── ProgressBar.jsx   # Barre de progression
-│   │   └── SharedComponents.jsx  # Composants réutilisables
+│   │   ├── AudioButton.jsx         # Contrôle audio 3 vitesses + boucle
+│   │   ├── ModuleHeader.jsx        # Entête module avec retour
+│   │   ├── ProgressBar.jsx         # Progression localStorage
+│   │   └── SharedComponents.jsx    # Composants réutilisables
 │   ├── modules/
-│   │   ├── Phrases/          # Module Phrases
-│   │   ├── Grammar/          # Module Grammaire
-│   │   ├── Pronunciation/    # Module Prononciation
-│   │   └── Vocabulary/       # Module Vocabulaire
-│   ├── hooks/                # (réservé)
+│   │   ├── Phrases/                # Module Phrases
+│   │   ├── Grammar/                # Module Grammaire
+│   │   ├── Pronunciation/          # Module Prononciation
+│   │   └── Vocabulary/             # Module Vocabulaire (SRS)
 │   └── utils/
-│       ├── tts.js            # Synthèse vocale (Web Speech API)
-│       └── storage.js        # Sauvegarde locale (localStorage)
-├── public/
-│   └── favicon.svg           # Icône 🀄
+│       ├── audio.js                # Gestionnaire audio edge-tts + Web Speech
+│       ├── segmenter.js            # Segmentation mot par mot (Intl.Segmenter)
+│       ├── storage.js              # Sauvegarde localStorage
+│       └── tts.js                  # Synthèse vocale fallback
+├── scripts/
+│   └── generate-audio.py           # Script edge-tts
+├── dist/
+│   ├── assets/                     # Build JS/CSS
+│   └── audio/                      # Fichiers audio générés
+├── LESSONS.md                      # 120 leçons détaillées
 ├── index.html
 ├── vite.config.js
 ├── package.json
@@ -82,28 +130,37 @@ AppCN/
 
 Chaque module a son fichier `data.js` :
 
-- `src/modules/Phrases/data.js` → ajoute des thèmes/leçons/phrases
-- `src/modules/Grammar/data.js` → ajoute des points grammaticaux/exercices
-- `src/modules/Pronunciation/data.js` → ajoute des syllabes/exercices d'écoute
-- `src/modules/Vocabulary/data.js` → ajoute des mots au vocabulaire
+- `src/modules/Phrases/data.js` → thèmes/leçons/phrases
+- `src/modules/Grammar/data.js` → points grammaticaux/exercices
+- `src/modules/Pronunciation/data.js` → syllabes/exercices
+- `src/modules/Vocabulary/data.js` → mots, notes comparatives
 
-Les données sont au format JavaScript (objets/tableaux). Ajoute librement tes propres leçons en suivant la structure existante.
+Les données sont au format JS. La structure des mots de vocabulaire utilise un ID unique (`wid`) pour le mapping audio :
 
-## Notes sur la synthèse vocale
+```js
+{
+  wid: 'v001',
+  hanzi: '你好',
+  pinyin: 'nǐ hǎo',
+  meaning: 'Bonjour',
+  jp_note: '你 (nǐ) = あなた, 好 (hǎo) = よい',
+  // ...
+}
+```
 
-L'application utilise **Web Speech API** (`speechSynthesis`), native dans tous les navigateurs modernes.
+## Pour les contributeurs
 
-- La voix chinoise dépend du système d'exploitation et du navigateur
-- Sous Windows : les voix chinoises sont incluses (paramètres régionaux)
-- Sous macOS : voix Ting-Ting (中国普通话) disponible
-- Linux : peut nécessiter l'installation de voix (ex: `espeak-ng` avec `mbrola`)
+L'app utilise React 19 + Vite 8. Pas de routage externe, pas de store — tout est géré par useState et localStorage.
 
-> L'application reste fonctionnelle sans audio : les pinyin et traductions sont toujours affichés.
+```bash
+git clone https://github.com/maraa081/AppCN.git
+cd AppCN
+npm install
+npm run dev
+```
 
-## Pour qui ?
+Puis ouvre http://localhost:5173/CN/ (ou via Caddy : https://guaiguai2.duckdns.org/CN/)
 
-Conçue pour **Maraa** — connaît le japonais, apprend le chinois. Les notes 🇯🇵 dans l'interface mettent en avant les similitudes et différences entre les deux langues.
+---
 
-## Licence
-
-Projet personnel — MIT
+**Conçue pour Maraa** — connaît le japonais, apprend le chinois. Notes 🇯🇵 dans l'interface.

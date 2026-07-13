@@ -8,6 +8,7 @@ import vocabularyData from './data';
 export default function VocabularyModule({ onBack }) {
   const [showPinyin, setShowPinyin] = useState(true);
   const [showJpNote, setShowJpNote] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
   const [filterLevel, setFilterLevel] = useState('all');
   const [filterTheme, setFilterTheme] = useState('all');
   const [view, setView] = useState('browse');
@@ -20,12 +21,18 @@ export default function VocabularyModule({ onBack }) {
   const themes = vocabularyData.themes;
 
   const filteredWords = useMemo(() => {
+    const q = searchQuery.toLowerCase().trim();
     return allWords.filter(w => {
       if (filterLevel !== 'all' && w.level !== filterLevel) return false;
       if (filterTheme !== 'all' && w.theme !== filterTheme) return false;
+      if (q) {
+        return w.french.toLowerCase().includes(q)
+            || w.hanzi.includes(q)
+            || w.pinyin.toLowerCase().includes(q);
+      }
       return true;
     });
-  }, [filterLevel, filterTheme]);
+  }, [filterLevel, filterTheme, searchQuery]);
 
   const dueWords = useMemo(() => getDueItems(allWords, 'vocabulary'), [progress]);
 
@@ -136,6 +143,13 @@ export default function VocabularyModule({ onBack }) {
         <StatsDisplay stats={stats} />
 
         <div className="vocab-controls">
+          <input
+            type="text"
+            className="search-bar"
+            placeholder="Chercher un mot (francais, pinyin, hanzi)..."
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+          />
           <div className="filter-row">
             <select value={filterLevel} onChange={e => setFilterLevel(e.target.value)}>
               <option value="all">Tous niveaux</option>

@@ -1229,3 +1229,25 @@ body {
   .flashcard-launch { flex-direction: column; }
   .word-pair { flex-direction: column; }
 }
+
+/* === Barre de recherche vocabulaire === */
+.search-bar {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid var(--bg-input, #333);
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background: var(--bg-input, #252545);
+  color: var(--text, #e8e8f0);
+}
+.search-bar:focus {
+  border-color: var(--accent, #e8b84b);
+}
+.search-bar::placeholder {
+  color: var(--text-dim, #9999b0);
+}
+
